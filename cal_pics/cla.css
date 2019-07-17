@@ -1,0 +1,163 @@
+@charset "UTF-8" ;
+
+#footer {
+	clear: both;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,div,td,th,address,blockquote,nobr,b,i {
+	font-family: arial ;
+	color: black
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	
+}
+
+h2 {
+	font-size: 25px;
+	margin-bottom: 15px;
+	text-align: justify;
+	
+}
+
+h3 {
+	font-size: 18px;
+	
+}
+
+h4 {
+	font-size: 14px;
+	
+}
+
+h5 {
+	font-size: 12px;
+}
+
+h6 {
+	font-size: 10px;
+}
+
+li {
+	margin-top: 3px;
+}
+
+pre {
+	font-size: 12px;
+}
+
+code,kbd,tt {
+	color: #0000c0;
+}
+
+var {
+	font-style: normal;
+	color: black;
+	background-color: white
+}
+
+
+
+a :link {
+	color: red;
+	text-decoration: none;
+	font-style: italic;
+}
+
+a :visited {
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a :focus {
+	color: #00AA00;
+	background-color: #FFFF77;
+	font-weight: bold;
+}
+
+a :hover {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a :active {
+	color: #0000EE;
+	font-weight: bold;
+}
+
+ins {
+	color: #009900;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+del {
+	color: #990000;
+	font-weight: bold;
+	text-decoration: line-through;
+}
+
+tr .row0 {
+	color: black;
+	font-size: 14px;
+	text-align: left;
+	margin: auto;
+	border-width: thin
+}
+
+td .col0 {
+	color: black;
+	font-size: 18px;
+	text-align: left;
+	font-weight: bold;
+}
+
+td .col1 {
+	color: black;
+	font-size: 14px;
+	text-align: left;
+	border-style: ridge;
+	margin: auto;
+	border-width: thin
+}
+
+td .right {
+	color: black;
+	font-size: 14px;
+	text-align: right;
+	border-style: ridge;
+	margin: auto;
+	border-width: thin
+}
+td .center {
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	border-style: ridge;
+	margin: auto;
+	border-width: thin
+}
+
+td .white {
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	border-style: ridge;
+	margin: auto;
+	border-width: thin
+}
+
+td .menue {
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: left;
+	border-style: ridge;
+	margin: auto;
+	border-width: thin
+}

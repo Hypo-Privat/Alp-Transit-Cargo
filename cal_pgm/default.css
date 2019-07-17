@@ -1,0 +1,271 @@
+a :link {
+	color: #0044aa;
+	text-decoration: none;
+}
+
+a :active {
+	color: #cc0000;
+	text-decoration: underline;
+}
+
+a :visited {
+	color: #0044aa;
+	text-decoration: none;
+}
+
+a :hover {
+	color: #cc0000;
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: Trebuchet MS, Tahoma;
+	font-size: 18pt;
+	color: silver;
+	text-align: center;
+}
+
+h2 {
+	font-family: Trebuchet MS, Tahoma;
+	font-size: 14pt;
+	color: silver;
+	text-align: center;
+}
+
+body {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin: 10px;
+	background: #ffffff;
+	font-family: Trebuchet MS, Tahoma;
+	font-size: 10pt;
+	color: silver;
+}
+
+td {
+	font-family: Trebuchet MS, Tahoma;
+	font-size: 10pt;
+	color: #000000;
+}
+
+.itemsbox {
+	border: 0px;
+	margin: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+
+.postbox {
+	border: 1px solid #6666aa;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	background-color: #f0f3ff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.postname {
+	font-weight: bold;
+	color: #002288;
+}
+
+.postinfo {
+	font-size: 8pt;
+	color: #667799;
+	border-bottom: 1px solid #aabbdd;
+	padding-bottom: 2px;
+}
+
+.posttext {
+	padding-top: 5px;
+}
+
+a .post :link {
+	color: #0044aa;
+	text-decoration: underline;
+}
+
+a .post :active {
+	color: #cc0000;
+	text-decoration: underline;
+}
+
+a .post :visited {
+	color: #0044aa;
+	text-decoration: underline;
+}
+
+a .post :hover {
+	color: #cc0000;
+	text-decoration: underline;
+}
+
+.tablehidden {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+}
+
+.pagenavbox {
+	border: 1px solid #aaccaa;
+	margin: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #f3fff3;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+	font-size: 9pt;
+}
+
+a .pagenav :link {
+	color: #008800;
+	text-decoration: none;
+}
+
+a .pagenav :active {
+	color: #cc0000;
+	text-decoration: none;
+}
+
+a .pagenav :visited {
+	color: #008800;
+	text-decoration: none;
+}
+
+a .pagenav :hover {
+	color: #cc0000;
+	text-decoration: none;
+}
+
+.pagenumbertext {
+	color: #559955;
+}
+
+.pagenumberdelim {
+	color: #aaccaa;
+}
+
+.pagenumbercurrent {
+	color: #224422;
+	font-weight: bold;
+}
+
+.buttonborder {
+	border: 1px solid #aaaaaa;
+	margin: 0px;
+	background-color: #f3f3f3;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+a .button :link {
+	color: #0044aa;
+	text-decoration: none;
+}
+
+a .button :active {
+	color: #cc0000;
+	text-decoration: none;
+}
+
+a .button :visited {
+	color: #0044aa;
+	text-decoration: none;
+}
+
+a .button :hover {
+	color: #cc0000;
+	text-decoration: none;
+}
+
+.admin {
+	font-size: 8pt;
+}
+
+a .admin :link {
+	color: #880000;
+	text-decoration: none;
+}
+
+a .admin :active {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+a .admin :visited {
+	color: #880000;
+	text-decoration: none;
+}
+
+a .admin :hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+.formbox {
+	border: 1px solid #6666aa;
+	margin: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #f0f3ff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+.formtext {
+	font-family: Trebuchet MS, Tahoma;
+	font-size: 9pt;
+	color: silver;
+}
+
+form {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin: 0px;
+}
+
+input,textarea,select {
+	font-family: tahoma, arial, helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+.errorbox {
+	border: 1px solid #aa0000;
+	margin: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #fff0f0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+.red {
+	color: #cc0000;
+}
+
+.green {
+	color: #00aa00;
+}

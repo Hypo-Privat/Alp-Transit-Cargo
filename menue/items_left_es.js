@@ -1,0 +1,28 @@
+var tmenuItems = [
+    ["Registrar","menue_call.php?go=tcontacts_data.inc&func=user_reg&dir=includes", "", "", "", "Als neuer User registrieren", "", "", "", ],
+      ["BÚSQUEDAS OTRA VEZ","", "", "", "", "", "", "", "", ],
+          ["||del la carga ","menue_call.php?go=ttourkfz_data.inc&func=tourkfz_reg&value=quick&dir=includes", "", "", "Fracht angebot anpassen ?", "", "", "", "", ],
+          ["||del el vehículo","menue_call.php?go=ttourlad_data.inc&func=tourlad_reg&value=quick&dir=includes", "", "", "Fahrzeug fÃƒÂ¼r Tour anbieten ?", "", "", "", "", ],
+      	  ["||del retiro","menue_call.php?go=tumz_data.inc&func=umz_reg&value=quick&dir=includes", "", "", "Umzug Tour anbieten ?", "", "", "", "", ],
+     ["LA INFORMACION","", "", "", "", "", "", "", "", ],
+          ["|El Peaje","", "", "", "", "", "", "", "", ],
+            ["||Suiza","http://www.ezv.admin.ch/index.html?lang=de", "", "", "", "", "_blank", "", "", ],
+            ["||Austria","http://www.bmf.gv.at/zoll/_start.htm", "", "", "", "", "_blank", "", "", ],
+            ["||EU","http://ec.europa.eu/taxation_customs/customs/customs_controls/risk_management/customs_eu/index_de.htm", "", "", "", "", "_blank", "", "", ],
+            ["||Francia","http://www.douane.gouv.fr/menu.asp?id=511", "", "", "", "", "_blank", "", "", ],
+            ["||Eslovenia","http://e-uprava.gov.si/e-uprava/en/zivljenjskeSituacijeDrevo.euprava?dogodek.id=12485", "", "", "", "", "_blank", "", "", ],
+         ["NOSTROS","", "", "", "", "", "", "", "", ],
+        ["|pie de imprenta","menue_call.php?go=impressum&dir=dyn", "", "", "", "", "", "", "", ],
+        ["|CGC","menue_call.php?go=agb_&dir=stat", "", "", "", "", "", "", "", ],
+            ["Soporte - la ayuda","menue_call.php?go=support&dir=dyn", "", "", "", "", "", "", "", ],
+     ["Prensa","menue_call.php?go=presse&dir=dyn", "", "", "", "", "", "", "", ],   ["Blog","http://alpenentransit.blogspot.com", "", "", "", "", "_blank", "", "", ],
+     ["Mapa del sitio","menue_call.php?go=atc_sitemap_&dir=stat", "", "", "", "", "", "", "", ],
+        
+ ];
+/*   ["|la guarda los Alpes","", "", "", "", "", "", "", "", ],
+			["||monitraf","http://www.monitraf.org/", "", "", "", "", "_blank", "", "", ],            
+            ["||la convención los Alpes","http://www.alpenkonvention.org/page1_de.htm", "", "", "", "", "_blank", "", "", ],
+            ["||Cipra","http://cipra.4teamwork.ch/de", "", "", "", "", "_blank", "", "", ],
+            ["||la bolsa el transito los Alpes","http://www.alpentransitboerse.ch", "", "", "", "", "_blank", "", "", ],
+            ["||Suiza","http://www.uvek.admin.ch/themen/umwelt/00640/00642/index.html?lang=de", "", "", "", "", "_blank", "", "", ],
+   */

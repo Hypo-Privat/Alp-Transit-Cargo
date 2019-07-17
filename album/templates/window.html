@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>{txt_script_name} {txt_script_version}</title>
+<meta http-equiv="Content-Type"
+	content="text/html; charset={txt_charset}" />
+<link rel="stylesheet" type="text/css" href="../cal_pics/cla.css" />
+
+</head>
+
+<body>
+
+
+<?php
+
+// Steuerung galerie Text ??
+
+
+?>
+
+
+<h2 align="center">{txt_classic}</h2>
+<p align="center">
+
+
+<IF NAME="prev_page">
+<!--<span style="font-weight:bold;">&raquo;&nbsp;<a href="./{script_name}">Start</a></span> &nbsp;&nbsp;&nbsp;-->
+<span style="font-weight: bold;">&raquo;&nbsp;<a
+	href="./{script_name}?{prev}">{txt_previous_picture}</a></span>
+</IF NAME="prev_page">
+
+&nbsp;&nbsp;&nbsp; {currentpage}/{allpages} &nbsp;&nbsp;&nbsp;
+<!--({txt_number_of_pictures}: {allpictures}) &nbsp;&nbsp;&nbsp;-->
+
+<IF NAME="next_page">
+<span style="font-weight: bold;">&raquo;&nbsp;<a
+	href="./{script_name}?{next}">{txt_next_picture}</a></span>
+</IF NAME="next_page">
+
+</p>
+
+<p align="center"><span style="font-weight: bold;">
+{txt_pages}: <LOOP NAME="page_direct"><a
+	href="./{script_name}?{link}"> {page} </a>&nbsp;</LOOP NAME="page_direct"> </span></p>
+
+<LOOP NAME="show_table">
+<table align="center">
+	{tablecontent}
+</table>
+</LOOP NAME="show_table">
+
+<p align="center"><a href="javascript:window.close()">{txt_close_window}</a></p>
+<!--<p align="center"><a href="./{script_name}">{txt_thumbnails_overview}</a></p>-->
+<p>&nbsp;</p>
+
+
+</body>
+</html>

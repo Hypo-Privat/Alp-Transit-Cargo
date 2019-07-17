@@ -1,0 +1,777 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#1: Globale beginnen mit glob_
+#2;	Filename z.b. AGB
+#3; Verwendung in Funktionen file_func_wert
+#  Aufruf z.b selectlist_get_country_land
+#
+msgid ""
+msgstr ""
+"Last-Translator: gd <gert.dorn@a-t-c.ch>\n"
+"PO-Revision-Date: 2010-01-17 16:06+0100\n"
+"X-Poedit-KeywordsList: login;trans\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-10 11:55+0200\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poeödit-SourceCharset: iso-8859-15\n"
+"X-Poedit-Language: German\n"
+"Language-Team: GERMAN <gert.dorn@a-t-c.ch>\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Project-Id-Version: Alp-Transit-Cargo\n"
+"Plural-Forms: nplurals=0; null;\n"
+
+# globale verwendet in
+# formate
+msgid "red_star"
+msgstr "<font color='red'>*</font>"
+
+msgid "glob_meldung"
+msgstr "<table width='700'><tr><td class='typ2' >"
+
+msgid "glob_meldung_end"
+msgstr "</td></tr></table>"
+
+msgid "glob_titel"
+msgstr "<table width='700'><tr><td class='titel' >"
+
+msgid "glob_titel_end"
+msgstr "</td></tr></table>"
+
+msgid "glob_line_gray"
+msgstr "<table width='700'><tr><td class='line_gray'>"
+
+msgid "glob_line_gray_end"
+msgstr "</td></tr></table>"
+
+msgid "glob_typ1"
+msgstr "<table width='700'><tr><td class='typ1'>"
+
+msgid "glob_typ1_end"
+msgstr "</td></tr></table>"
+
+msgid "glob_typ2"
+msgstr "<table width='700'><tr><td class='typ2' >"
+
+msgid "glob_typ2_end"
+msgstr "</td></tr></table>"
+
+msgid "glob_tour"
+msgstr "<table width='700'><tr><td class='tour' >"
+
+msgid "glob_tour_end"
+msgstr "</td></tr></table>"
+
+msgid "glob_contact"
+msgstr "<table width='700'><tr><td class='contact' >"
+
+msgid "glob_contact_end"
+msgstr "</td></tr></table>"
+
+# allgemeine variabelen
+msgid "ABBRECHEN"
+msgstr "<input type='submit' name='senden' value='absenden' onclick='return validate(this.form,var_1)'>"
+
+msgid "formular"
+msgstr "<input type='submit' name='senden' value='absenden' onclick='return validate(this.form,var_1)'>"
+
+msgid "senden"
+msgstr "<input type='submit' name='senden' value='absenden'>"
+
+msgid "cancel"
+msgstr "<input type='reset' id='button' value='abbrechen'>"
+
+msgid "glob_close_window"
+msgstr "<br><A HREF='javascript:window.close()'>Fenster schliessen</A>"
+
+# files user_data.inc, login.php,
+msgid "glob_hallo"
+msgstr " Hallo"
+
+msgid "glob_email"
+msgstr "E-Mail"
+
+msgid "glob_senden"
+msgstr "absenden"
+
+msgid "glob_aendern"
+msgstr " ändern"
+
+msgid "glob_loeschen"
+msgstr " löschen"
+
+msgid "glob_login"
+msgstr "Login"
+
+msgid "glob_logout"
+msgstr "Logout</a>"
+
+msgid "glob_sign"
+msgstr "<br><br>Viel Erfolg wünscht Ihnen Ihr Alp-Transit-Cargo-Team!"
+
+msgid "glob_eingelogged_head"
+msgstr "Willkommen bei All-Transit-Cargo!"
+
+msgid "welcome_text"
+msgstr "Alp-Transit-Cargo ist ein kostenloses Onlineportal auf welchem Sie <b><a href='http://www.a-t-c.ch/menue_call.php?go=toursuchen_data.inc&func=such_list&value=lad&dir=includes' > Fracht  </a> oder <a href='http://www.a-t-c.ch/menue_call.php?go=toursuchen_data.inc&func=such_list&value=kfz&dir=includes' > Fahrzeuge  </a> suchen und anbieten </b>können. Reservieren Sie über das Portal benötigte <b><a href='http://www.a-t-c.ch/menue_call.php?go=trans_reser&dir=dyn'> Durchfahrtsrechte für Transitländer </a>, deklarieren</b> Sie Ihre <b>Fracht beim Zoll</b> oder wickeln Sie direkt andere Anträge über uns bei den Behörden ab.<br><br>Weiterhin vertritt Alp-Transit-Cargo den Gedanken, durch die Koordination (Optimierung) Ladungen (Frachten, Stückgut) auf vorhandene Leerfahrzeuge (freien Frachtraum) zu verlagern, um so die Umwelt zu entlasten und die Kosten für den Einzelnen zu reduzieren. In Kürze werden wir Ihnen auch Alternativvorschläge für eine Verlagerung von Fracht oder Fahrzeugen auf die Schiene unterbreiten.<br> <br>Wir freuen uns, Ihnen Ihre täglichen Aufgaben zu erleichtern, alternative Verkehrswege zu erschliessen sowie mit Ihnen zusammen die Umwelt zu entlasten."
+
+msgid "glob_eingelogged_text"
+msgstr "Als registrierter User können Sie nun Ihre Fahrzeuge und Fahrer, welche Sie künftig für Zuladung offerieren möchten erfassen. Weiter können Sie Ihre Anträge und Zollerklärungen bei den Ländern kostengünstig über uns Online abwickeln.<br>Sobald die Länder auf die obligatorische Erfassung von Transitfahrten bestehen, können Sie diese Durchfahrtsrechte hier Online erwerben."
+
+msgid "glob_eingelogged_help"
+msgstr "<br>So geht's nach der Registrierung<br>1: Passen Sie Ihr Profil an.<br>2: Erfassen Sie einen oder mehrere Fahrer Ihres Unternehmens.<br>3: Erfassen Sie Ihre Fahrzeuge<br>4: Geben sie eine Tour für welche sie noch Ladung oder Zuladung suche ein.<br>Für die Eingabe von Fracht für den Versand ist nur schritt 1 und 4 nötig."
+
+msgid "glob_nicht_eingelogged"
+msgstr "<table width='700' ><tr><td class='titel'   > Funktion nur für registrierte User verfügbar.<br>Bitte loggen Sie sich erst mit E-Mail und Passort ein !</td></tr></table>"
+
+msgid "glob_form_error"
+msgstr "Datenbank Fehler bei der Abfrage. bitte senden Sie uns die Fehlermeldung<br>gert.dorn@a-t-c.ch<br>"
+
+msgid "glob_login_error"
+msgstr "Login Fehler"
+
+msgid "glob_login_error_text"
+msgstr "Benutzername und/oder Passwort sind nicht korrekt."
+
+msgid "glob_passwort"
+msgstr "Passwort"
+
+msgid "glob_passwort_lost"
+msgstr "<a href='menue_call.php?go=tcontacts_data.inc&func=user_login_check&dir=includes'> Passwort vergessen ?</a>"
+
+msgid "glob_datum"
+msgstr "Datum"
+
+msgid "glob_woche"
+msgstr "Woche"
+
+msgid "glob_tag"
+msgstr "Tag"
+
+msgid "glob_stunde"
+msgstr "Stunde"
+
+msgid "glob_tag_mo"
+msgstr "Montag"
+
+msgid "glob_tag_di"
+msgstr "Dienstag"
+
+msgid "glob_tag_mi"
+msgstr "Mittwoch"
+
+msgid "glob_tag_do"
+msgstr "Donnerstag"
+
+msgid "glob_tag_fr"
+msgstr "Freitag"
+
+msgid "glob_tag_sa"
+msgstr "Samstag"
+
+msgid "glob_tag_so"
+msgstr "Sonntag"
+
+msgid "glob_land"
+msgstr "Land"
+
+msgid "glob_route"
+msgstr "Route"
+
+msgid "glob_richtung"
+msgstr "Richtung"
+
+msgid "glob_preis"
+msgstr "Preis"
+
+msgid "glob_registrieren_head"
+msgstr "Registrieren Sie sich jetzt!<br>"
+
+msgid "glob_registrieren_hinweis"
+msgstr "Wenn Sie Offerten für Fahrzeuge, Ladung, Umzüge angeben möchten,<br>Transitdurchfahrtsrechte erwerben oder auf Offerten antworten, sollten Sie mit <font color='red'>aktuellen Daten</font> in Ihrem Profil arbeiten. Ansonsten können Geschäftspartner keinen Kontakt zu Ihnen aufnehmen oder bekommen falsche Informationen übermittelt. Im Bereich \"IHRE FIRMA\" können Sie nach der <font color='red'>REGISTRIERUNG und LOGIN</font> Ihr aktuelles Profil ansehen und anpassen. <br>Wir wünschen Ihnen viel Erfolg mit unserem Dienst und freuen uns jederzeit über konstruktive Kritik, um unser Angebot zu verbessern.          <b>Ihr Alp-Transit-Cargo Team</b>"
+
+msgid "glob_registrieren_link"
+msgstr "<a href='menue_call.php?go=tcontacts_data.inc&func=user_reg&dir=includes'>Jetzt Registrieren?</a>"
+
+msgid "glob_registrieren_text"
+msgstr "Sollten Sie noch keinen Zugang haben, registrieren Sie sich hier !"
+
+# ende globale
+msgid "sendmail_register_text"
+msgstr "Willkommen bei Alp-Transit-Cargo !<br>Dies ist Ihre Registrierungsbestätigung für All Transit Cargo.<br>"
+
+msgid "sendmail_register_text1"
+msgstr "Speichern Sie diese Informationen oder drucken Sie sich eine Kopie aus, so dass Sie später darauf zurückgreifen können.</h4>Vielen Dank, dass Sie sich für ein Konto auf All Transit Cargo angemeldet haben. Verwenden Sie die E-Mail-Adresse und das Kennwort, das Sie während der Anmeldung angegeben haben, um sich auf jeder Site bzw. bei jedem Dienst anzumelden, auf der bzw. auf dem das Netzwerk-Logo angezeigt wird. <br>Diese E-Mail enthält wichtige Informationen über die Nutzung Ihres Kontos sowie Informationen darüber, was zu tun ist, wenn Sie Ihr Kennwort vergessen haben.<h4>SO MELDEN SIE SICH AN</h4>Klicken Sie bei All Transit Cargo auf jeder Partnersite auf die jeweilige Anmeldeschaltfläche und geben Sie im Anmeldefeld Ihre E-Mail-Adresse und Ihr Kennwort ein. <br>Sie können sich durch Einfachklicken anmelden, indem Sie Ihre E-Mail-Adresse und Ihr Kennwort bei der Anmeldung auf dem Computer speichern.<h4>SO MELDEN SIE SICH AB</h4>Klicken Sie bei All Transit Cargo auf jeder Partnersite auf die jeweilige Abmeldeschaltfläche, um sich von allen All Transit Cargo-Sites abzumelden. In der Kontoverwaltung finden Sie weitere nützliche Informationen und können Ihr Profil anzeigen und ändern.<h4>WENN SIE IHR KENNWORT VERGESSEN HABEN</h4>Sie können Ihr Kennwort in der Kontoverwaltung zurücksetzen. Wir empfehlen Ihnen dringend, eine Frage, eine geheime Antwort und eine alternative E-Mail-Adresse zu wählen, unter der All-Transit-Cargo  Ihnen eine Nachricht zum Zurücksetzen des Kennworts zusenden kann. Rufen Sie zum Erstellen dieser Kennwortsicherung die Seite der Kontoverwaltung auf, auf der die Anmeldeinformationen aufgeführt sind. Gehen Sie zum Zurücksetzen Ihres Kennworts zur Kontoverwaltung, klicken Sie auf 'Kennwort vergessen?', und folgen Sie den angezeigten Anweisungen.<br>All Transit Cargo ist bestrebt, Ihre Privatsphäre zu schützen. Lesen Sie hierzu die All Transit Cargo Datenschutzbestimmungen unter<h4>http://www.Alp-Transit-Cargo.ch</h4> <br>Vielen Dank, dass Sie All Transit Cargo benutzen!<br>Ihr All Transit Cargo Kundensupport<h4>HINWEIS:</h4>Beantworten Sie diese Nachricht bitte nicht, denn sie wurde von einer nicht überwachten E-Mail-Adresse gesendet. E-Mails, welche an diese Adresse gesendet werden, werden nicht beantwortet."
+
+msgid "sendmail_passwort_send"
+msgstr "Wenn Sie Ihr Passwort oder Ihren Benutzernamen vergessen haben, geben Sie Ihre E-Mail-Adresse ein!"
+
+msgid "sendmail_passwort_betreff"
+msgstr "Sie haben Ihr Passwort für Alp-Transit-Cargo angefordert !"
+
+msgid "sendmail_passwort_text"
+msgstr "Sehr geehrte(r) All Transit Cargo Nutzer.<br> Ihr Passwort für das Login bei Alp-Transit-Cargo.ch ist :"
+
+msgid "sendmail_passwort_error"
+msgstr "Passwort Mail konnte nicht gesendet werden ! Haben Sie die richtige Mailadresse angegeben?"
+
+# dyn/trans_reser.php
+msgid "trans_reser.php_titel"
+msgstr "Transit Reservation"
+
+msgid "trans_reser.php_text1"
+msgstr "Nachdem die Reservation durch die Länder noch nicht obligatorisch ist, bitten wir Sie, für die Qualitätssicherung und statistische Auswertungen trotzdem eine Reservierung vorzunehmen.<br> Die Reservierung eines Durchfahrtsrechts ist  KOSTENLOS!"
+
+msgid "trans_reser.php_text2"
+msgstr "Bitte wählen Sie für Ihren Transit Datum und welche Route Sie benützen wollen."
+
+msgid "trans_reser.php_wahl_trade"
+msgstr "Tag / Stunde"
+
+msgid "trans_reser.php_sel_trade"
+msgstr "<OPTION value = 'T'>Tag</option><OPTION value = 'S'>Stunde</option>"
+
+# ende trans_reser.php
+# includes/trans_slotlist.inc
+# get_route
+msgid "trans_slotlist.inc_get_route_anzeigetxt1"
+msgstr "Aktuell werden freie Slots der Route"
+
+msgid "trans_slotlist.inc_get_route_anzeigetxt2"
+msgstr " in Richtung"
+
+msgid "trans_slotlist.inc_get_route_anzeigetxt3"
+msgstr " angezeigt. Die Auswahl erfolgt durch anklicken der Zahl im grünen Bereich."
+
+# ende trans_slotlist.inc
+# includes/kfz*.inc
+msgid "kfz_registrieren_head"
+msgstr "Fahrzeuge Ihres Fuhrparks erfassen!"
+
+msgid "kfz_registrieren_text"
+msgstr "Hier können Sie alle Fahrzeuge Ihrer Firma erfassen, welche Sie für Beiladungen auf verschiedenen Touren anbieten möchten."
+
+msgid "kfz_upd_head"
+msgstr "Fahrzeuge Ihrer Firma bearbeiten!"
+
+msgid "kfz_upd_text"
+msgstr "Hier können Sie die Daten aller Fahrzeuge Ihrer Firma ändern oder löschen."
+
+msgid "kfz_tbins_ok"
+msgstr " Kennzeichen Daten wurden gespeichert."
+
+msgid "kfz_tbupd_ok"
+msgstr " für das Kennzeichen wurden die Daten angepasst."
+
+msgid "kfz_tbdel_ok"
+msgstr " für das Kennzeichen wurden gelöscht."
+
+msgid "FZ_KENNZ"
+msgstr "Kennzeichen<font color='red'>*</font>"
+
+msgid "FZ_LAND"
+msgstr "Zugelassen in Land"
+
+msgid "FZ_SCHADSTOFF"
+msgstr "Schadstoffklasse<br>Die Schlüsselnummer für das Emissionsverhalten eines PKW's findet man im Fahrzeugbrief und -schein zu 1. — Fahrzeug und Aufbauart— an der 5. und 6. Stelle.<font color='red'>*</font>"
+
+msgid "FZ_MARKE"
+msgstr "Hersteller"
+
+msgid "FZ_TYPE"
+msgstr "Fahrzeug-Typ"
+
+msgid "FZ_ERSTZULASSUNG"
+msgstr "Erstzulassung<font color='red'>*</font>"
+
+msgid "FZ_ART"
+msgstr "Fahrzeug-Art"
+
+msgid "FZ_NOTIZ"
+msgstr "Zusätzliche Info"
+
+# ende kfz*
+# Tcontacts
+msgid "cont_profil_head"
+msgstr "Passen Sie Ihr Profil bitte an!"
+
+msgid "cont_profil_text"
+msgstr "Wenn Sie Offerten für Fahrzeuge, Ladung, Umzüge angeben möchten, Transitdurchfahrtsrechte erwerben oder auf Offerten antworten, sollten Sie mit <font color='red'>aktuellen Daten</font> in Ihrem Profil arbeiten. Ansonsten können	Geschäftspartner keinen Kontakt zu Ihnen aufnehmen oder bekommen falsche Informationen übermittelt."
+
+msgid "cont_upd_error"
+msgstr "Diese E-Mailadresse bereits registriert, entweder andere E-Mailadresse wählen oder Passwort anfordern."
+
+msgid "cont_upd_ok"
+msgstr "Ihr Profil wurde angepasst."
+
+msgid "cont_pwd_change_head"
+msgstr "Sie möchten Ihr Passwort ändern?"
+
+msgid "cont_pwd_change_text"
+msgstr "Bitte geben Sie Ihr neüs Passwort ein und bestätigen Sie es!"
+
+msgid "COMPANYNAME"
+msgstr "Firma"
+
+msgid "PREFIX"
+msgstr "Anrede"
+
+msgid "FIRSTNAME"
+msgstr "Vorname<font color='red'>*</font>"
+
+msgid "LASTNAME"
+msgstr "Nachname<font color='red'>*</font>"
+
+msgid "SUFFIX"
+msgstr "Titel"
+
+msgid "BIRTHDATE"
+msgstr "Geburtstag"
+
+msgid "COUNTRY"
+msgstr "Land"
+
+msgid "STATEPROVINCE"
+msgstr "Bundesland"
+
+msgid "POSTALCODE"
+msgstr "Postleitzahl<font color='red'>*</font>"
+
+msgid "CITY"
+msgstr "Stadt<font color='red'>*</font>"
+
+msgid "ADDRESS"
+msgstr "Strasse<font color='red'>*</font>"
+
+msgid "ADDRESSNUMBER"
+msgstr "Hausnummer<font color='red'>*</font>"
+
+msgid "OFFICEPHONE"
+msgstr "Telefon<font color='red'>*</font>"
+
+msgid "FAXPHONE"
+msgstr "Fax"
+
+msgid "CELLULARPHONE"
+msgstr "Mobile"
+
+msgid "PAGERPHONE"
+msgstr "Pager"
+
+msgid "HOMEPHONE"
+msgstr "Telefon<font color='red'>*</font>"
+
+msgid "URL"
+msgstr "Ihre Homepage (www.homepage.de)"
+
+msgid "LANG"
+msgstr "Gewünschte Sprache"
+
+msgid "NOTE"
+msgstr "Weitere Infos"
+
+msgid "EMAILADDRESS"
+msgstr "E-Mail<font color='red'>*</font>"
+
+msgid "PWD"
+msgstr "Passwort<font color='red'>*</font>"
+
+msgid "AGB"
+msgstr " <a href='menue_call.php?go=agb_&dir=stat'>Ich habe die AGBs gelesen und akzeptiere diese.<font color='red'>*</font>"
+
+# ende Tcontacts*
+# TPARTNER
+msgid "partner_new_head"
+msgstr "Erfassen Sie die Fahrer und Subunternehmer!"
+
+msgid "partner_new_hinweis"
+msgstr "Wenn Sie ein Fahrzeug für Ladung/Zuladung anbieten möchten, können Sie auch gleich den Fahrer miterfassen. Möchte der Kunde dann direkten Kontakt mit seiner Ladung aufnehmen, kann er direkt mit dem Fahrer kommunizieren."
+
+msgid "partner_new_ok"
+msgstr "Der Fahrer wurde erfasst."
+
+msgid "partner_upd_head"
+msgstr "Fahrer und Subunternehmer Ihrer Firma bearbeiten!"
+
+msgid "partner_upd_text"
+msgstr "Hier können Sie die Daten aller Fahrer und Subunternehmer Ihrer Firma ändern oder löschen."
+
+msgid "partner_tbupd_ok"
+msgstr " Die Daten wurden  angepasst."
+
+msgid "partner_tbdel_ok"
+msgstr " Daten wurden gelöscht."
+
+msgid "partner_"
+msgstr "Sie möchten ihr Passwort ändern?"
+
+msgid "DRV_LIZENZ"
+msgstr "Führerscheinnummer"
+
+msgid "DRV_BEHOERDE"
+msgstr "Ausstellende Behörde"
+
+msgid "DRV_DATE"
+msgstr "Ausstellungs Datum"
+
+# ende TPARTNER
+# tour glob alle
+msgid "INDEXKEY"
+msgstr "Kundennummer"
+
+msgid "KFZ_INDEXKEY"
+msgstr "Fahrzeug Kennzeichen"
+
+msgid "PART_INDEXKEY"
+msgstr "Fahrer Name"
+
+msgid "TOUR_INDEXKEY"
+msgstr "Fahrzeug"
+
+msgid "LADUNG_INDEXKEY"
+msgstr "Ladung"
+
+msgid "AB_DAT"
+msgstr "Start"
+
+msgid "AB_LAND"
+msgstr "Land_ab"
+
+msgid "AB_PLZ"
+msgstr "Plz_ab"
+
+msgid "AB_ORT"
+msgstr "Ort_ab"
+
+msgid "AN_DAT"
+msgstr "Ankunft"
+
+msgid "AN_LAND"
+msgstr "Land_an"
+
+msgid "AN_PLZ"
+msgstr "Plz_an"
+
+msgid "AN_ORT"
+msgstr "Ort_an"
+
+msgid "GEWICHT"
+msgstr "Gewicht (t, kg)"
+
+msgid "VOLUMEN"
+msgstr "Abmessung (Länge * Breite * Höhe * Tiefe, cbm ect.)"
+
+msgid "CONTACTDATE"
+msgstr "Speicherdatum"
+
+msgid "ANZAHL"
+msgstr "Menge der Objekte"
+
+msgid "PACKART"
+msgstr "Objekt (Paletten, Container, Kanister, ect.)"
+
+msgid "KFZ_ART"
+msgstr "Fahrzeugwunsch"
+
+# texte
+msgid "tourlad_new_head"
+msgstr "Ladung und Beiladung für den Versand erfassen!"
+
+msgid "tourlad_new_text"
+msgstr "Hier können Sie Ladung und Beiladung für den Versand anbieten. Die Spediteure können Ihnen dann ein Angebot unterbreiten. Dieses finden Sie unter Angebote bei \"IHRE FIRMA\"."
+
+msgid "tourkfz_new_head"
+msgstr "Tour für leeres Fahrzeug Ihres Fuhrparks erfassen!"
+
+msgid "tourkfz_new_text"
+msgstr "Hier können Sie Touren Ihrer Firma erfassen, welche Sie für Beiladungen anbieten möchten."
+
+msgid "tour_upd_head"
+msgstr "Erfasste Touren Ihrer Firma bearbeiten!"
+
+msgid "tour_upd_text"
+msgstr "Hier können Sie alle Daten Ihres Tourenangebots ändern oder löschen."
+
+msgid "tour_tbins_ok"
+msgstr " Tour Daten wurden gespeichert."
+
+msgid "tour_tbupd_ok"
+msgstr "Für die Tour wurden die Daten angepasst."
+
+msgid "tour_tbdel_ok"
+msgstr " für die Tour wurden gelöscht."
+
+# ende Ttourlad
+# uchmasken
+msgid "suche_kfz_head"
+msgstr "Alle Fahrzeuge, welche Ladung oder Beiladung aufnehmen können!"
+
+msgid "suche_kfz_text"
+msgstr "Angezeigt werden in Zeile 2  freies(Gewicht, Volumen, Info)"
+
+msgid "suche_lad_head"
+msgstr "Alle Ladungen, welche zum Versand bereit stehen!"
+
+msgid "suche_lad_text"
+msgstr "Angezeigt werden in Zeile 2  freies(Gewicht, Volumen, Menge, Objekt, gewünschtes Fahrzeug, Info)"
+
+msgid "link_contact"
+msgstr "Contact"
+
+msgid "contact_head"
+msgstr "Anbieter Information !"
+
+msgid "contact_text"
+msgstr "Dies sind die Daten des Anbieters der von Ihnen gewählten Ladung/Fahrzeug-Angebots.<br><font color='red'>Wir übernehmen keine Haftung für die Richtigkeit der zur Verfügung gestellten Informationen.</font><br> In einem nächsten Release werden wir die Firmen und Anbieter, welche unser Angebot nutzen, entsprechend prüfen ."
+
+msgid "contact_anfrage"
+msgstr "Interessent für Ihr Angebot auf All Transit Cargo NR."
+
+msgid "contact_mail"
+msgstr "E-Mail an Anbieter senden?"
+
+# trans_buy
+msgid "transbuy_head"
+msgstr "Transit Reservierung erwerben!"
+
+msgid "transbuy_text"
+msgstr "Mit dem Ausfüllen und Absenden dieses Formulars erwerben Sie das Recht, mit einem LKW durch ein Transitland  zu fahren. Bitte geben Sie dazu entweder eine bereits unter \"erfasste Tour\" oder \"Fahrzeug\" ein. Sollten Sie kein Fahrzeug oder keine Tour erfasst haben, müssen Sie das vorher unter IHRE FIRMA tun. Weiter müssen Sie Ihre Zoll-Nr. oder die Nummer für die leistungsabhängige Schwerverkehrsabgabe (CH = LSVA) des jeweiligen Landes, welches Sie durchfahren möchten, angeben."
+
+msgid "transbuy_rueck"
+msgstr "<br>Eine Rückgabe der Reservierung ist maximal werktags 48h vor Gültigkeit der Reservierung möglich. Es werden 10% Bearbeitungsgebühr berechnet!"
+
+msgid "rechnungsanschrift"
+msgstr "Sind das Ihre Kontaktdaten? Falls nicht, passen Sie bitte Ihr Profil an.<br>"
+
+msgid "transbuy_wahl1"
+msgstr "<br><br>Sie möchten für den"
+
+msgid "transbuy_wahl2"
+msgstr " um"
+
+msgid "transbuy_wahl3"
+msgstr " auf der Route"
+
+msgid "transbuy_wahl4"
+msgstr " ein Transitrecht erwerben. <br>"
+
+msgid "transbuy_wahl5"
+msgstr "<br>Für welche Tour oder welches Fahrzeug ist die Reservierung?<br>"
+
+msgid "transbuy_LSVA_text"
+msgstr "Zollnr oder LSVA(CH)"
+
+msgid "transbuy_LSVA"
+msgstr "<input name = 'LSVA' type= 'text' size = '10' maxlength = '10'  style='height: 20px' value = '' >"
+
+msgid "sendmail_olduser_text"
+msgstr "<br>Helfen Sie uns bei der Qualitätssicherung unserer neuen Internet-Plattform.<br><br><font color='red'>Testen Sie <a href='http://www.a-t-c.ch' target='_blank'> Alp-Transit-Cargo </a> mit Login:  Ihre Emailadresse & Passwort.  <a href='http://localhost/menue_call.php?go=tcontacts_data.inc&func=user_login_check&dir=includes' target='_blank'> Passwort vergessen ? </a></font><br> Alp-Transit-Cargo ist ein kostenloses Onlineportal auf welchem Sie <b><a href='http://www.a-t-c.ch/menue_call.php?go=toursuchen_data.inc&func=such_list&value=lad&dir=includes' target='_blank'> Fracht  </a> oder <a href='http://www.a-t-c.ch/menue_call.php?go=toursuchen_data.inc&func=such_list&value=kfz&dir=includes' target='_blank'> Fahrzeuge  </a> suchen und anbieten </b>können. Reservieren Sie über das Portal benötigte <b><a href='http://www.a-t-c.ch/menue_call.php?go=trans_reser&dir=dyn' target='_blank'> Durchfahrtsrechte für Transitländer </a>, deklarieren</b> Sie Ihre <b>Fracht beim Zoll</b> oder wickeln Sie direkt andere Anträge über uns bei den Behörden ab.<br><br>Weiterhin vertritt Alp-Transit-Cargo den Gedanken, durch die Koordination (Optimierung) Ladungen (Frachten, Stückgut) auf vorhandene Leerfahrzeuge (freien Frachtraum) zu verlagern, um so die Umwelt zu entlasten und die Kosten für den Einzelnen zu reduzieren. In Kürze werden wir Ihnen auch Alternativvorschläge für eine Verlagerung von Fracht oder Fahrzeugen auf die Schiene unterbreiten.<br> <br>Wir freuen uns, Ihnen Ihre täglichen Aufgaben zu erleichtern, alternative Verkehrswege zu erschliessen sowie mit Ihnen zusammen die Umwelt zu entlasten."
+
+msgid "sendmail_olduser_betreff"
+msgstr "All-Transit-Cargo Transport- & Frachtenbörse kostenlos benutzen!<br><br>"
+
+# end old user
+# impressum
+msgid "impr_head"
+msgstr "Impressum"
+
+msgid "impr_management"
+msgstr "Management"
+
+msgid "impr_management_pers"
+msgstr "Gert Dorn<br><a	href='http://link2.map24.com/?lid=728fd028&amp;maptype=JAVA&amp;width0=1500&amp;q=Zürich Langstrasse 31&amp;country=CH&amp;logo_url=a-t-c.ch&amp;name=Frachtenbörse' target='map24'>Langstrasse 31</a><br>CH - 8004 Zürich<br><br>Mail : <a href='mailto:gert.dorn@a-t-c.ch?Subject=Management'>gert.dorn@a-t-c.ch</a> <br>Skype : A-T-C.ch"
+
+msgid "impr_marketing"
+msgstr "Marketing"
+
+msgid "impr_marketing_pers"
+msgstr "Silvia Heimann<br>Dank für Korrektur und Konzeption"
+
+msgid "spenden_head"
+msgstr "Spenden an Alp-Transit-Cargo"
+
+msgid "spenden_text"
+msgstr "Alp-Transit-Cargo entwickelt und betreibt eine Frachten- und Transportbörse, mit welcher durch die Koordination (Optimierung)Ladungen (Frachten, Stückgut) auf vorhandene Leerfahrzeuge (freien Frachtraum) zu verlagern um so die Umwelt zu entlasten und die Kosten für den Einzelnen zu reduzieren.<br><br>Weiter stellen wir eine Handelsplattform für die Reservierung der Transitrechte durch die Alpentransitländer, zur Erfassung statistischer Daten über die Verkehrsbewegungen in der Region bereit.<br><br>Die Hard- und Software sind teilweise gekauft und teilweise gemietet und wurden bisher privat finanziert. Neu anfallende Kosten für Werbung und externe Unterstützung können nicht mehr aus eigenen Mitteln finanziert werden. Momentan ist die vorhandene Hardware für uns ausreichend. Probleme gibt es eigentlich nur mit der Werbung und einem professionelleren Design über eine Agentur.<br>Alp-Transit-Cargo möchte sich künftig ausschliesslich durch Spenden finanzieren. Kommerzielle Werbung wird abgelehnt. <br><br>Wer die Arbeit des Projekts für Alp-Transit-Cargo allgemein unabhängig von den momentanen Bedürfnissen finanziell unterstützen möchte, kann dies auf mehrere Arten tun.<br><br>"
+
+msgid "spenden_konto"
+msgstr "<h4>Spenden an: Gert Dorn - Verwendung: Alp-Transit-Cargo  <br>Stadtsparkasse Nürnberg - IBAN: DE78 7605 0101 0004 415622 <br>Credit Suisse                            - IBAN: CH82 0483 5112 4849 6100 0 </h4>"
+
+# bis hier übersetzungen in EN, IT, FR, ES gemacht
+msgid "support_head"
+msgstr "Beispiele für die Benutzung von Alp-Transit-Cargo"
+
+msgid "support_text"
+msgstr "Beispiel Dokumente alle PDF machen: <br> <a href='/stat/demo_Transit.pdf'>Transit Reservieren</a><br> <a href='/stat/demo_Registrieren.pdf'>Neu Registrieren</a><br> <a href='/stat/demo_Tour_eingeben.pdf'>Tour Fahrzeug/Ladung anbieten</a><br>"
+
+msgid "presse_head"
+msgstr "Pressemitteilungen und Veröffentlichungen"
+
+msgid "presse_text"
+msgstr "<a href='/presse/Alpentransitboerse-ist-online.doc'>Medienmitteilung</a><br><a href='/presse/Walliser-Boten-20080326.pdf'>Walliser Boten 20080326</a><br><a href='/presse/a-t-c.pdf'>Präsentation Alpentransitbörse</a><br>"
+
+msgid "barcode_head"
+msgstr "Transit Reservierungs Beleg"
+
+msgid "barcode_text"
+msgstr "Bitte drucken sie sich ihren Reservierungsbeleg aus und geben Sie diesem dem Fahrer für den Grenzübertritt mit. Falls Sie sie den Barcode als SMS an ihren Fahrer senden möchten, bitte Telefonnummer und kurztext eingeben. <font color='red'> Dieser Service kostet 5 Sfr. (CH) andere Länder 5 Euro </font>"
+
+msgid "barcode_sms"
+msgstr "Mobile Nummer des Empfängers mit Länderkennung	z.B. 004917299338822 <br><input name='mobile' type='text' size='25' maxlength='25' style='height: 20px' value=''> <br>	Kurznachrichten Text max. 80 Zeichen:<br><input name='mobiletext' type='text' size='80' maxlength='80'style='height: 20px' value=''> <br><br>	<input type='submit' name='SMS' value='SMS'>"
+
+msgid "partner_no"
+msgstr "<OPTION>kein Fahrer</OPTION>"
+
+msgid "kfz_no"
+msgstr "<OPTION>kein Fahrzeug</OPTION>"
+
+msgid "AB_ZIMMER"
+msgstr "Zimmer jetzige Wohnung"
+
+msgid "AB_ETAGE"
+msgstr "von Etage"
+
+msgid "AB_AUFZ"
+msgstr "alt Aufzug"
+
+msgid "AN_ZIMMER"
+msgstr "Zimmer neue Wohnung"
+
+msgid "AN_ETAGE"
+msgstr "nach Etage"
+
+msgid "AN_AUFZ"
+msgstr "neu Aufzug"
+
+msgid "KART_GLAS"
+msgstr "Kartons für Glas (Menge)"
+
+msgid "KART_BUCH"
+msgstr "Kartons für Bücher (Menge)"
+
+msgid "KART_KLEID"
+msgstr "Kartons für Kleider (Menge)"
+
+msgid "suche_umz_head"
+msgstr "Alle Angebote für den Transport von Umzugsgut!"
+
+msgid "suche_umz_text"
+msgstr "Angezeigt werden in Zeile 2  - Zimmer jetzige Wohnung: - von Etage: - alt Aufzug: - Zimmer neue Wohnung: - nach Etage: - neu Aufzug: - Kartons für Glas (Menge): - Kartons für Bücher (Menge): - Kartons für Kleider (Menge): - Weitere Infos:"
+
+msgid "umz_registrieren_head"
+msgstr "Umzug zur Abwicklung anbieten!"
+
+msgid "umz_registrieren_text"
+msgstr "Hier können Sie Ihren Umzug erfassen. Interessenten können dann mit Ihnen Kontakt aufnehmen und Ihnen ein Angebot unterbreiten."
+
+msgid "umz_upd_head"
+msgstr "Erfasste Umzugdaten bearbeiten!"
+
+msgid "umz_upd_text"
+msgstr "Hier können Sie alle Daten Ihres Umzugwunsches ändern oder löschen."
+
+msgid "umz_tbins_ok"
+msgstr " Umzug-Daten wurden gespeichert."
+
+msgid "umz_tbupd_ok"
+msgstr "Für den Umzug wurden die Daten angepasst."
+
+msgid "umz_tbdel_ok"
+msgstr " Umzug wurden gelöscht."
+
+msgid "umzug"
+msgstr "Umzüge"
+
+msgid "fracht"
+msgstr "Frachten"
+
+msgid "fahrzeug"
+msgstr "Fahrzeuge"
+
+msgid "suchen"
+msgstr "suchen"
+
+msgid "angebot"
+msgstr "anbieten"
+
+msgid "bahn-tip"
+msgstr "Wenn sie ein Angebot für die Verlagerung auf die Schiene suchen, bitte im Hauptmenue unter SCHIENE."
+
+# quick angebot
+msgid "quick_ok_text"
+msgstr "Sie erhalten eine E-mail mit Ihrem Passwort für den LOGIN ! Ihr Angebot wurde gespeichert !"
+
+# Classic
+msgid "cal_allgem_head"
+msgstr " Adagio e Allegro 3 Tage Open-Air am See  Classic au Lac"
+
+msgid "cal_allgem"
+msgstr "<br><br>Sehr geehrte Damen und Herren<br><br>Drei Tage Open-Air am See mit klassischer Musik von Jugend-, Laien- und Profiorchestern aus der Schweiz.<br> Man jubelt den Musikerinnen und Musikern zu, spendet lauten Applaus .Doch vor allem geniesst Frau, Mann und Kind. Eine bunte Mischung von Menschen jeden Alters lagert im Gras, auf mitgebrachten Campingstühlen oder den bereit gestellten Stühlen und lauscht andächtig, lustvoll, neugierig oder verzaubert. Einige tanzen, andere verpflegen sich an den verschiedenen Ständen und Unbekannte stossen miteinander an. <br>Die wunderschöne Halbinsel am See, Menschen und Musik verschmelzen zu einer Einheit. <br>Sie werden Ohren machen, wenn Sie die Interpretationen alter und neuer Kompositionen dieser Musikerinnen und Musiker auf dem einzigartigen Veranstaltungsort unter freiem Himmel direkt am See geniessen können.<br>Die Orchester bieten eine Mischung aus anspruchsvollen und populären Stücken bis hin zu klassischen Arrangements von Filmmusik. <br><br>Wir würden uns sehr freuen, Sie bei unserem Anlass begrüssen zu dürfen. <br><br>Bitte unterstützen Sie unser Open Air, drucken Sie unseren Flyer oder Plakat aus <br>http://www.classicaulac.ch/cal_pics/presse/Cal-2009-railaway-p.pdf <br>http://www.classicaulac.ch/cal_pics/presse/Cal-2009-railaway-f.pdf <br>und hängen es an Ihrer Infowand auf.<br><br>"
+
+msgid "cal_firma_head"
+msgstr " Ihr Firmen-Event beim Classic au Lac Festival am Zürichsee"
+
+msgid "cal_firma"
+msgstr "<br><br>Sehr geehrte Damen und Herren.<br><br>Gerade in der jetzigen Zeit sind motivierte Mitarbeitende und  ein gutes Verhältnis zu Lieferanten und Kunden die wichtigsten Erfolgsfaktoren eines Unternehmens. Haben Sie sich schon überlegt, Ihre Mitarbeitenden oder Ihre Kunden und Lieferanten gemeinsam auf ein Fest einzuladen? <br><br><b>Wir bieten Ihnen die Möglichkeit, mit einem Minimum an Kosten und Aufwand ein Maximum an Erfolg zu erzielen: </b><br><br>Sie laden Ihre Mitarbeitenden oder Kunden an unser Openair-Festival der klassischen Musik ein. Dieses findet vom 28. – 30. August auf dem einzigartigen Richterswiler Horn, direkt am See, statt. An drei Tagen werden acht Jugend-,  Laien- und Profiorchester aus der Schweiz ihre Programme von Johannes Brahms bis Carl Maria von Weber mit populärer Klassik und Filmmusik präsentieren. <br><br><b>Und Sie sind an einem Tag dabei.</b><br><br>Für 50 CHF pro Person  reservieren Sie Ihren Gästen einen Sitzplatz vor der Bühne. <br>Zusätzlich könnten Sie Ihrem Gast ein Cüpli oder Getränk (+ 10 CHF Getränkebon) oder gar ein Essen  von dem reichhaltigen Bewirtschaftungsangebot  (+ 20 CHF) offerieren. <br><br>Weitere Möglichkeiten wären: <br>- Die Gage und Patenschaft während des Festivals für eines der Orchester zu übernehmen. <br>-  Als Donator sich in das Festival einbringen <br>- Einen Infrastrukturbeitrag für das Festival leisten  <br><br>Ich danke Ihnen für Ihr Interesse und würde mich über ein kurzes Feedback sehr freuen. <br><br>Bitte unterstützen Sie unser Open Air, drucken Sie unseren<a href='http://classicaulac.ch/cal_pics/presse/cal-flyer2009.pdf' target='_blank'> Flyer </a>oder<a href='http://classicaulac.ch/cal_pics/presse/cal-plakat2009.pdf' target='_blank'> Plakat </a><br>aus und hängen es an Ihrer Infowand auf.<br><br>"
+
+msgid "cal_alten_head"
+msgstr "Ihr Ausflug in die Welt der klassischen Musik zum Classic au Lac Festival !"
+
+msgid "cal_alten"
+msgstr "<br><br>Sehr geehrte Damen und Herren<br><br>Wäre es für Ihre Gäste nicht ein besonderes Erlebnis, am idyllischen Richterswiler Horn, direkt am See, zu sitzen und den Klängen klassischer Musik zu lauschen? An drei Tagen, vom 28. bis 30. August 2009, werden acht Orchester aus der Schweiz populäre Klassik und Filmmusik unter freiem Himmel präsentieren. Unvergessliche Stücke wie Mary Poppins, My fair Lady und Carmen werden Sie genauso verzaubern, wie die Zauberflöte oder die kleine Nachtmusik.<br><br>Für Gruppenreisen ab zehn Personen gewähren wir einen Mengenrabatt von 10% pro Ticket. In diesem Arrangement ist ein reservierter Sitzplatz garantiert. Tickets können aber auch über die RailAway oder Starticket erworben werden. <br><br>Weitere Informationen finden Sie auf unserer Homepage www.classicaulac.ch oder wenden Sie sich direkt an uns. <br><br>Wir würden uns sehr freuen, Sie bei unserem Anlass begrüssen zu dürfen. <br><br>Bitte unterstützen Sie unser Open Air, drucken Sie unseren<a href='http://classicaulac.ch/cal_pics/presse/cal-flyer2009.pdf' target='_blank'> Flyer </a>oder<a href='http://classicaulac.ch/cal_pics/presse/cal-plakat2009.pdf' target='_blank'> Plakat </a><br>aus und hängen es an Ihrer Infowand auf.<br><br>"
+
+msgid "cal_kirche_head"
+msgstr " Ihr Ausflug in die Welt der klassischen Musik zum Classic au Lac Festival"
+
+msgid "cal_kirche"
+msgstr "<br><br>Liebe Mitarbeiterinnen und Mitarbeiter der  Kirchgemeinde <br><br>Vom 28. bis 30. August 2009 findet in Richterswil am Horn das erste klassische Open Air  Festival statt. Drei Tage lang spielen acht Orchester aus der ganzen Schweiz populäre Klassik und Filmmusik. Unvergessliche Stücke wie Mary Poppins, My fair Lady und Carmen werden Sie genauso verzaubern wie die kleine Nachtmusik oder die Zauberflöte. <br><br>Bestimmt kennen Sie viele Musikliebhaber, Chormitglieder und Orchestermusikerinnen, die sich für einen solchen Anlass interessieren und ihn gerne besuchen möchten. <br><br>Für 2010 suchen wir übrigens noch Orchester, die gerne an unserem Festival teilnehmen möchten. <br><br>Wir würden uns sehr freuen, Sie bei unserem Anlass begrüssen zu dürfen. <br><br>Bitte unterstützen Sie unser Open Air, drucken Sie unseren<a href='http://classicaulac.ch/cal_pics/presse/cal-flyer2009.pdf' target='_blank'> Flyer </a>oder<a href='http://classicaulac.ch/cal_pics/presse/cal-plakat2009.pdf' target='_blank'> Plakat </a><br>aus und hängen es an Ihrer Infowand auf.<br><br>"
+
+msgid "cal_reise_head"
+msgstr "Bieten Sie Tagesfahrten zum Classic au Lac-Festival am Zürichsee an ?"
+
+msgid "cal_reise"
+msgstr "<br><br>Sehr geehrte Damen und Herren.<br><br>Gerade in der jetzigen Zeit sind motivierte Mitarbeitende und  ein gutes Verhältnis zu Lieferanten und Kunden die wichtigsten Erfolgsfaktoren eines Unternehmens. Haben Sie sich schon überlegt, eine Tagesfahrt zu unserem Festival anzubieten?<br><br><b>Wir bieten Ihnen die Möglichkeit, mit einem Minimum an Kosten und Aufwand ein Maximum an Erfolg zu erzielen: </b><br><br>Das Festival findet vom 28. – 30. August auf dem einzigartigen Richterswiler Horn, direkt am See, statt. An drei Tagen werden acht Jugend-,  Laien- und Profiorchester aus der Schweiz ihre Programme von Johannes Brahms bis Carl Maria von Weber mit populärer Klassik und Filmmusik präsentieren.<br><br><b>Und Sie sind an einem Tag dabei  und fahren Sie mit dem Car direkt vor Ort.</b><br>Für 50 CHF pro Person  reservieren Sie Ihren Gästen einen Sitzplatz vor der Bühne. Zusätzlich könnten Sie Ihrem Gast ein Cüpli oder Getränk (+ 10 CHF Getränkebon) oder gar ein Essen  von dem reichhaltigen Bewirtschaftungsangebot  (+ 20 CHF) anbieten.<br><br>Sollten Sie fragen zu unserem Angebot können ie mich gerne unter 078 772 0815 erreichen.<br><br>"
+
+msgid "cal_orchester_head"
+msgstr " Adagio e Allegro 3 Tage Open-Air am See  Classic au Lac"
+
+msgid "cal_orchester"
+msgstr "<br><br>Sehr geehrte Damen und Herren<br><br>Wäre es für Ihre Gäste nicht ein besonderes Erlebnis, am idyllischen Richterswiler Horn, direkt am See, zu sitzen und den Klängen klassischer Musik zu lauschen? An drei Tagen, vom 28. bis 30. August 2009, werden acht Orchester aus der Schweiz populäre Klassik und Filmmusik unter freiem Himmel präsentieren. Unvergessliche Stücke wie Mary Poppins, My fair Lady und Carmen werden Sie genauso verzaubern, wie die Zauberflöte oder die kleine Nachtmusik.<br><br>Für Gruppenreisen ab zehn Personen gewähren wir einen Mengenrabatt von 10% pro Ticket. In diesem Arrangement ist ein reservierter Sitzplatz garantiert. Tickets können aber auch über die RailAway oder Starticket erworben werden. <br><br>Weitere Informationen finden Sie auf unserer Homepage www.classicaulac.ch oder wenden Sie sich direkt an uns. <br><br>Wir würden uns sehr freuen, Sie bei unserem Anlass begrüssen zu dürfen. <br><br>Bitte unterstützen Sie unser Open Air, drucken Sie unseren<a href='http://classicaulac.ch/cal_pics/presse/cal-flyer2009.pdf' target='_blank'> Flyer </a>oder<a href='http://classicaulac.ch/cal_pics/presse/cal-plakat2009.pdf' target='_blank'> Plakat </a><br>aus und hängen es an Ihrer Infowand auf.<br><br>"
+
+msgid "cal_presse_head"
+msgstr " Adagio e Allegro 3 Tage Open-Air am See  Classic au Lac"
+
+msgid "cal_presse"
+msgstr "<br><br>Sehr geehrte Damen und Herren<br><br>Wäre es für Ihre Gäste nicht ein besonderes Erlebnis, am idyllischen Richterswiler Horn, direkt am See, zu sitzen und den Klängen klassischer Musik zu lauschen? An drei Tagen, vom 28. bis 30. August 2009, werden acht Orchester aus der Schweiz populäre Klassik und Filmmusik unter freiem Himmel präsentieren. Unvergessliche Stücke wie Mary Poppins, My fair Lady und Carmen werden Sie genauso verzaubern, wie die Zauberflöte oder die kleine Nachtmusik.<br><br>Für Gruppenreisen ab zehn Personen gewähren wir einen Mengenrabatt von 10% pro Ticket. In diesem Arrangement ist ein reservierter Sitzplatz garantiert. Tickets können aber auch über die RailAway oder Starticket erworben werden. <br><br>Weitere Informationen finden Sie auf unserer Homepage www.classicaulac.ch oder wenden Sie sich direkt an uns. <br><br>Wir würden uns sehr freuen, Sie bei unserem Anlass begrüssen zu dürfen. <br><br>Bitte unterstützen Sie unser Open Air, drucken Sie unseren<a href='http://classicaulac.ch/cal_pics/presse/cal-flyer2009.pdf' target='_blank'> Flyer </a>oder<a href='http://classicaulac.ch/cal_pics/presse/cal-plakat2009.pdf' target='_blank'> Plakat </a><br>aus und hängen es an Ihrer Infowand auf.<br><br>"
+
+msgid "cal_hand_head"
+msgstr "Dein Einsatz bei Classic au Lac !"
+
+msgid "cal_hand"
+msgstr "Vielen Dank für Deine Anmeldung als Helferin/Helfer zu unserem ersten Open-Air-Festival auf dem Horn.<br><br>Folgende Einsatzzeiten haben wir geplant:<br><br>Helfer, welche am Donnerstag und Montag kommen, sollten sich bis 9.00 Uhr auf dem Horn in Richterswil einfinden.<br>Es müssen die Bühne, Zelte, Absperrung und Stühle aufgebaut und am Montag wieder abgebaut werden. Wenn alles gut läuft, sollten wir jeweils bis 16.00 Uhr fertig sein.<br><br>Freitag, Samstag und Sonntag geht es um 14:30 Uhr los. Es wird ein Briefing stattfinden und entsprechende Teams werden gebildet.<br><br>Sollte jemand nicht kommen können, lasst es uns bitte frühzeitig wissen, damit wir entsprechende Alternativen wahrnehmen können.<br><br>Wir freuen uns auf ein tolles Festival mit viel Sonnenschein.<br>"
+
+msgid "cal_gast_head"
+msgstr "Einladung zu Classic au Lac --> Ihr Gästepass liegt an der Kasse !"
+
+msgid "cal_gast"
+msgstr "Wir möchten Sie zu unserem ersten Classic au Lac Festival einladen und haben Ihnen (soweit noch nicht versendet) einen Gästepass an der Kasse hinterlegt. An drei Tagen, vom 28. bis 30. August 2009, werden acht Orchester aus der Schweiz populäre Klassik und Filmmusik unter freiem Himmel präsentieren.Unvergessliche Stücke wie Mary Poppins, My fair Lady und Carmen werden Sie genauso verzaubern, wie die Zauberflöte oder die kleine Nachtmusik. <br><br>Bei Regen findet die Veranstaltung in der Reformierten Kirche Richterswil statt.<br><br>Weitere Informationen finden Sie auf unserer Homepage www.classicaulac.ch <br><br>Es würde uns freuen Sie begrüssen zu dürfen.<br><br>"
+
+msgid "cal_musik-e_head"
+msgstr "1. Classic au Lac ist vorbei!"
+
+msgid "cal_musik-e"
+msgstr "Wir durften ein wunderschönes Wochenende mit Ihnen erleben. Herzlichen Dank dafür! <br><br>Wir möchten Sie gerne daran teilhaben lassen, dass die Reaktionen aus der Bevölkerung durchwegs sehr positiv und begeistert ausgefallen sind! Bitte schauen Sie dazu auch die Gästebucheinträge auf unserer Homepage an.<br> Bei dieser Gelegenheit möchten wir Sie auch bitten, Ihre Eindrücke im Gästebuch  kurz festzuhalten, damit wir dokumentieren können, dass ein Festival für ein neues Publikum, Familien, junge Menschen, einem Bedürfnis entspricht.<br><br> Unser Technik-Team fand die Zusammenarbeit mit Ihnen sehr angenehm und bereichernd, ebenso wir vom Management. Wir alle sind uns sehr bewusst, dass diese Gegebenheiten draussen, mit Wind, mit Nebengeräuschen, für Sie alle eine zusätzliche Herausforderung waren. Diese haben Sie aber perfekt gemeistert, was wir auch aus der Berichterstattung der Medien erfahren durften. Wir gratulieren Ihnen herzlich dafür!<br><br>Sobald wir alles dokumentiert haben, auch die Fotos von unseren Freunden und Zuschauern, werden Sie das Material erhalten und sich hoffentlich auch so darüber freuen, wie wir es tun.<br><br>Auf unserer Presseseite finden sie alle Artikel welche bisher geschrieben wurden."
+
+msgid "cal_gast-e_head"
+msgstr "1. Classic au Lac ist vorbei!"
+
+msgid "cal_gast-e"
+msgstr "Wir durften ein schönes Wochenende voller klassischer Klänge auf dem Richterswiler Horn erleben. <br>Ein <a href='http://classicaulac.ch' target='_blank'> Festival Video </a> ist bereits auf unserer Homepage.<br><br>Über  Sie als Gäste haben wir uns sehr gefreut, haben Sie doch unsere Idee durch Ihren Besuch unterstützt und uns darin bestärkt, dass wir auf dem richtigen Weg sind. Dies können wir auch aus Ihren Einträgen in unser Gästebuch auf der Homepage ersehen oder auch aus den wohlwollenden Zeitungsmeldungen. <br><br>Dafür Ihnen allen ein herzliches Dankeschön!<br><br>Dass wir in diesem Jahr noch nicht die Besucherzahlen erreicht haben, die wir uns gewünscht hätten, wird Gegenstand der Auswertungen des Festivals sein, die in den nächsten Wochen bei uns intern stattfinden.<br><br> Sie können uns helfen, indem Sie unser Gästebuch mit Lob, Kritik und Vorschlägen füllen.<br><br>Vielleicht auf ein Wiedersehen im nächsten Jahr wo dann der Platz mit einem <a href='http://classicaulac.ch/cal_menue.php?go=location&dir=cal_pgm\"' target='_blank'> Dach </a><br> gegen Regen und Sonne gesichert sein wird. <br><br>"
+
+msgid "cal_sign"
+msgstr "Ihr Classic au Lac Team<br>Silvia Heimann, Susanne Ziegler, Gert Dorn<br><br><a href='http://classicaulac.ch' target='_blank'>www.classicaulac.ch</a><br>"
+
+msgid "weihnacht_head"
+msgstr "Liebe Freundinnen und Freunde, Helfer, Musikerinnen und Förderer von Classic au Lac. <br><br>Wir haben uns entschieden, im Jahr 2010 kein Openair-Festival „Classic au Lac“ durchzuführen, da wir auch dieses Jahr keine Sponsoren /Defizitgarantien finden konnten. <br>Auch ist es für Silvia Heimann und mich zeitlich nicht möglich neben der  100%igen beruflichen Tätigkeit ein solches Open -Air nebenbei zu organisieren. <br><br>Wir werden aber nicht aufgeben, da das Konzept gut ist und es beim Publikum gut ankommt. <br><br>Sollten Sie Lust haben für 2011 mit  uns zu planen  oder aktiv im Organisationskomitee mit zu arbeiten, dann schreiben Sie uns Ihre Vorschläge, was Sie gerne machen möchten und wo Ihre Stärken sind.<br> <br>Wir wünschen Ihnen ein frohes Weihnachtsfest und einen guten Rutsch in ein erfolgreiches Jahr 2010. <br><br>Zürich, im Dezember 2009 Office@classicaulac.ch<br><br>"
+

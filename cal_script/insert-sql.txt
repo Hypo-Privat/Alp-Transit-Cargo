@@ -1,0 +1,264 @@
+
+INSERT INTO  ATC.TCLACONTACTS
+(INDEXKEY ,COMPANYNAME , FIRSTNAME ,LASTNAME , SUFFIX ,ADDRESS ,
+ADDRESSNUMBER ,CITY ,POSTALCODE ,COUNTRY ,OFFICEPHONE ,MOBILE ,
+EMAILADDRESS ,KFZ ,HELFER ,SETTAG ,SETNR ,
+URL ,NOTE ,PWD ,LANG, EIGENSCHAFT)
+VALUES(
+'28092 ',
+'Cappella dei Giovani',
+'Andrea',
+'Steiner',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'07658013',
+'info@sjso.ch',
+'',
+'',
+'28.08.2009',
+2,
+'sjso.ch',
+'',
+'steiner2808-2',
+'DE',
+'Orchester');
+
+
+
+Orchester          Login        Passwort
+Cappella dei Giovani        info@sjso.ch        steiner2808-2
+
+
+INSERT INTO  ATC.TCLACONTACTS
+(INDEXKEY ,COMPANYNAME , FIRSTNAME ,LASTNAME , SUFFIX ,ADDRESS ,
+ADDRESSNUMBER ,CITY ,POSTALCODE ,COUNTRY ,OFFICEPHONE ,MOBILE ,
+EMAILADDRESS ,KFZ ,HELFER ,SETTAG ,SETNR ,
+URL ,NOTE ,PWD ,LANG, EIGENSCHAFT)
+VALUES(
+'30082 ',
+'Kammerorchester Amriswil',
+'Annelies',
+'Rohrer',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'info@kammerorchesteramriswil.ch',
+'',
+'',
+'30.08.2009',
+2,
+'kammerorchesteramriswil.ch',
+'',
+'rohrer3008-2',
+'DE',
+'Orchester');
+
+Kammerorchesteramriswil        info@kammerorchesteramriswil.ch        rohrer3008-2
+
+
+
+INSERT INTO  ATC.TCLACONTACTS
+(INDEXKEY ,COMPANYNAME , FIRSTNAME ,LASTNAME , SUFFIX ,ADDRESS ,
+ADDRESSNUMBER ,CITY ,POSTALCODE ,COUNTRY ,OFFICEPHONE ,MOBILE ,
+EMAILADDRESS ,KFZ ,HELFER ,SETTAG ,SETNR ,
+URL ,NOTE ,PWD ,LANG, EIGENSCHAFT)
+VALUES(
+'28081 ',
+'Jugend Sinfonieorchester Aargau',
+'Christoph',
+'Schenker',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'christoph.schenker@kuenstlerhausboswil.ch',
+'',
+'',
+'28.08.2009',
+1,
+'www.jsag.net',
+'',
+'schenker2808-1',
+'DE',
+'Orchester');
+
+Jugend Sinfonieorchester
+Aargau        christoph.schenker@kuenstlerhausboswil.ch        schenker2808-1
+
+INSERT INTO  ATC.TCLACONTACTS
+(INDEXKEY ,COMPANYNAME , FIRSTNAME ,LASTNAME , SUFFIX ,ADDRESS ,
+ADDRESSNUMBER ,CITY ,POSTALCODE ,COUNTRY ,OFFICEPHONE ,MOBILE ,
+EMAILADDRESS ,KFZ ,HELFER ,SETTAG ,SETNR ,
+URL ,NOTE ,PWD ,LANG, EIGENSCHAFT)
+VALUES(
+'29081 ',
+'Kammerorchester Thalwil',
+'Maya',
+'Wenger',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'mayawenger@bluewin.ch',
+'',
+'',
+'29.08.2009',
+1,
+'www.musicnet.ch/koth/',
+'',
+'wenger2908-1',
+'DE',
+'Orchester');
+
+Kammerorchester Thalwil        mayawenger@bluewin.ch        wenger2908-1
+
+
+
+INSERT INTO  ATC.TCLACONTACTS
+(INDEXKEY ,COMPANYNAME , FIRSTNAME ,LASTNAME , SUFFIX ,ADDRESS ,
+ADDRESSNUMBER ,CITY ,POSTALCODE ,COUNTRY ,OFFICEPHONE ,MOBILE ,
+EMAILADDRESS ,KFZ ,HELFER ,SETTAG ,SETNR ,
+URL ,NOTE ,PWD ,LANG, EIGENSCHAFT)
+VALUES(
+'29082 ',
+'Orchesterverein Oerlikon',
+'Anja',
+'Böhm',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'info@ovoe.ch',
+'',
+'',
+'29.08.2009',
+2,
+'ovoe.ch',
+'',
+'boehm2908-2',
+'DE',
+'Orchester');
+
+Orchesterverein Oerlikon        info@ovoe.ch        boehm2908-2
+
+
+INSERT INTO  ATC.TCLACONTACTS
+(INDEXKEY ,COMPANYNAME , FIRSTNAME ,LASTNAME , SUFFIX ,ADDRESS ,
+ADDRESSNUMBER ,CITY ,POSTALCODE ,COUNTRY ,OFFICEPHONE ,MOBILE ,
+EMAILADDRESS ,KFZ ,HELFER ,SETTAG ,SETNR ,
+URL ,NOTE ,PWD ,LANG, EIGENSCHAFT)
+VALUES(
+'30081 ',
+'Camerata Salonisticha',
+'Claudio',
+'Bergantini',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'info@camerata-salonistica.ch',
+'',
+'',
+'30.08.2009',
+1,
+'camerata-salonistica.ch',
+'',
+'bergantini3008-1',
+'DE',
+'Orchester');
+
+Camerata Salonisticha        info@camerata-salonistica.ch        bergantini3008-1
+
+
+
+INSERT INTO  ATC.TCLACONTACTS
+(INDEXKEY ,COMPANYNAME , FIRSTNAME ,LASTNAME , SUFFIX ,ADDRESS ,
+ADDRESSNUMBER ,CITY ,POSTALCODE ,COUNTRY ,OFFICEPHONE ,MOBILE ,
+EMAILADDRESS ,KFZ ,HELFER ,SETTAG ,SETNR ,
+URL ,NOTE ,PWD ,LANG, EIGENSCHAFT)
+VALUES(
+'29083 ',
+'Orchester Maur',
+'Georg A.',
+'Hildebrand',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'gh@orchestermaur.ch',
+'',
+'',
+'29.08.2009',
+3,
+'orchestermaur.ch',
+'',
+'hildebrand2908-3',
+'DE',
+'Orchester');
+
+Orchester Maur        gh@orchestermaur.ch        hildebrand2908-3
+
+INSERT INTO  ATC.TCLACONTACTS
+(INDEXKEY ,COMPANYNAME , FIRSTNAME ,LASTNAME , SUFFIX ,ADDRESS ,
+ADDRESSNUMBER ,CITY ,POSTALCODE ,COUNTRY ,OFFICEPHONE ,MOBILE ,
+EMAILADDRESS ,KFZ ,HELFER ,SETTAG ,SETNR ,
+URL ,NOTE ,PWD ,LANG, EIGENSCHAFT)
+VALUES(
+'29083 ',
+'Colegium Musicum Basel',
+'Urban',
+'Walser',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'',
+'ufwtrp@bluewin.ch',
+'',
+'',
+'30.08.2009',
+3,
+'collegiummusicumbasel.ch',
+'',
+'walser3008-3',
+'DE',
+'Orchester');
+
+Colegium Musicum Basel        ufwtrp@bluewin.ch        walser3008-3
+
+
+
+

@@ -1,0 +1,463 @@
+<?xml version="1.0"?>
+<!doctype html public "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Dokumentation Galerie-Script</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta name="robots" content="noindex">
+
+</head>
+
+<style type="text/css">
+<!--
+  h4 {
+      font-family:Tahoma,Helvetica,Geneva,Sans-serif,sans-serif;
+      margin-top:5px;
+      text-align:center;
+      }
+
+  h5 {
+      font-family:Tahoma,Helvetica,Geneva,Sans-serif,sans-serif;
+      margin-top:50px;
+      margin-bottom:5px;
+      text-align:center;
+      font-size:11pt;
+      }
+
+  p, td, br, form, ol, a, ul, li {
+      font-family:Verdana,Helvetica,Geneva,Sans-serif,sans-serif;
+      font-size:10.5pt;
+      }
+
+  .chapter {
+      width:650px;
+      border-width:1px;
+      border-style:solid;
+      border-color:#000000;
+      margin-left:50px;
+      padding:10px;
+      margin-bottom:20px;
+      background-color:#E6F2CC;
+      line-height:14pt;
+      }
+
+  .code {
+      font-family:Courier New;
+      }
+
+  .links {
+      width:650px;
+      margin-left:50px;
+      padding:5px;
+      margin-bottom:10px;
+      }
+-->
+</style>
+
+<body>
+  <a name="top"></a>
+
+  <div class="chapter"><a name="ad"></a>
+<h4>Gallery Script präsentiert: Online Terminreservierung</h4>
+<p> Unser Programm <a href="http://www.schedule-organizer.de/">Schedule Organizer</a> ermöglicht den Kunden, Patienten oder Mandanten die Terminreservierung über die Homepage der Firma, ihres Arztes oder ihres Beraters. Das PHP-Script erleichtert und automatisiert die Terminverwaltung - die zuständigen Mitarbeiter werden entlastet, denn es müssen weniger Telefonanrufe entgegen genommen oder weniger Faxe und Briefe beantwortet werden.
+</p>
+<p> <a href="http://www.schedule-organizer.de/">Schedule Organizer Website</a>
+ 
+ 
+ 
+</p>
+<p align="right"><a href="#top"> Nach oben
+</a></p></div> 
+ 
+
+  <div class="chapter">
+    <h4>Dokumentation Galerie-Script</h4>
+    <p>Vielen Dank f&uuml;r Ihr Interesse an unserem Galerie-Script. Wir empfehlen Ihnen, sich Zeit f&uuml;r die Lekt&uuml;re dieser Anleitung zu nehmen. </p>
+  </div>
+
+  <div class="links">
+    <a href="#configuration">Konfiguration</a>&nbsp;&nbsp;
+    <a href="#html">HTML-Template</a>&nbsp;&nbsp;
+    <a href="#images">Bilder</a>&nbsp;&nbsp;
+    <a href="#count">Bildaufrufe z&auml;hlen</a>&nbsp;&nbsp;
+    <a href="#captions">Bildbeschriftungen</a>&nbsp;&nbsp;
+    <a href="#upload">Datei-Upload</a>&nbsp;&nbsp;
+    <a href="#lizenzierung">Lizenzierung</a>&nbsp;&nbsp;
+    <a href="#support">Support</a>
+  </div>
+
+  <div class="chapter">
+    <h4>Einleitung</h4>
+
+      <p>Das Script ist f&uuml;r den sofortigen Einsatz konfiguriert und eingerichtet. Nachdem Sie das Script auf den Server kopiert haben, k&ouml;nnen Sie es sofort verwenden. Wenn Sie &Auml;nderungen vornehmen m&ouml;chten, sollten Sie diese Schrittweise durchf&uuml;hren und nach jeder &Auml;nderung die Auswirkung auf das Script zu testen. Sie behalten dadurch den &Uuml;berblick, welche &Auml;nderung einen eventuell auftretenden Fehler verursacht hat.</p>
+
+      <p>Die HTML-Templates wurden nach den Spezifikationen f&uuml;r XHTML 1.0 erstellt. Deshalb enthalten alle einfachen Tags (&lt;br&gt; oder &lt;input&gt;) einen abschlie&szlig;enden Slash (&lt;br /&gt; oder &lt;input type=&quot;text&quot; name=&quot;feld&quot; /&gt;).</p>
+
+      <h5>Funktionen im &Uuml;berblick</h5>
+
+      <ul>
+        <li>Liest automatisch alle Bilder in einem Verzeichnis ein</li>
+        <li>Bilder in einer Reihe und pro Seite k&ouml;nnen festgelegt werden</li>
+        <li>Sortierreihenfolge der Bilder kann festgelegt werden</li>
+        <li>Programm-Code und HTML-Quellcode sind getrennt (Templates) - das Layout ist leicht anpassbar</li>
+        <li>Bildaufrufe k&ouml;nnen gez&auml;hlt und angezeigt werden</li>
+      </ul>
+
+  </div>
+
+  <div class="chapter">
+    <a name="configuration"></a>
+    <h4>Konfiguration des Scripts</h4>
+    <p>Die Dateien 'index.php' und 'window.php' (bzw. 'y_frame_navi.php' und 'y_frame_main.php' oder 'z_simple_index.php' und 'z_simple_window.php') stellen das gleiche Script dar, sind jedoch unterschiedlich konfiguriert. Folgende Variablen sind in den Dateien zu editieren:</p>
+
+
+    <table border="0" cellpadding="0" cellspacing="0">
+      <tr valign="top">
+        <td class="code">$image_path</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          Wenn Sie ein anderes Bildverzeichnis als das Voreingestellte nutzen m&ouml;chten, k&ouml;nnen Sie den Pfad in dieser Variable &auml;ndern. Tragen Sie dort den absoluten Serverpfad (z.B.: /usr/local/etc/.../images/bildergalerie oder /kunden/homepages/7/d543863/htdocs/images) ein. Alternativ k&ouml;nnen Sie auch den relativen Pfad, also ausgehend von der Position des Scripts, eingeben (z.B.: ../bilder/party).
+          <br /><br />
+        </td>
+      </tr>
+      <tr valign="top">
+        <td class="code">$image_url</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          In dieser Variable ist der Bild-Pfad zum Aufruf in den HTML-Seiten anzugeben. Sie k&ouml;nnen den relativen Pfad, also ausgehend, von der Position des Scripts, angeben oder den absoluten Pfad ausgehend vom WWW-Root (z.B.: bei http://www.server.de/images/bild.gif ist der absolute Pfad '/images/bild.gif').
+          <br /><br />
+        </td>
+      </tr>
+      <tr valign="top">
+        <td class="code">$picture_count</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          In dieser Variable legen Sie fest, wie viele Bilder in einer Reihe angezeigt werden sollen. Der Standardwert in der 'index.php' ist 2 Bilder in einer Reihe. Der Standardwert von 'window.php' 1 Bild in einer Reihe. Die Anzahl kann beliebig ver&auml;ndert.
+          <br /><br />
+        </td>
+      </tr>
+      <tr valign="top">
+        <td class="code">$pictures_per_page</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          Mit dieser Variable bestimmen Sie die Anzahl der Bilder auf einer Seite.
+          <br /><br />
+        </td>
+      </tr>
+      <tr valign="top">
+        <td class="code">$order</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          Mit dieser Variable legen Sie die Sortierrichtung fest. 'ascending' bedeutet aufsteigende Sortierung (a, b, c, 1, 2, 3), 'descending' sortiert absteigend (c, b, a, 3, 2, 1). Die Sortierung richtet sich nach dem Dateinamen. Stellen Sie sicher, dass in miteinander korrespondierenden Dateien $order immer den gleichen Wert hat (index.php und window.php m&uuml;ssen mit der selben Richtung konfiguriert werden).
+          <br /><br />
+          Beispiel:
+          <br /><br />
+          <span class="code">$order = "ascending";</span>
+          <br /><br />
+          oder
+          <br /><br />
+          <span class="code">$order = "descending";</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td class="code">$language</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          Hier k&ouml;nnen Sie die Sprache festlegen. Eingetragen werden muss hier das K&uuml;rzel, dass auch im Namen der Sprachdatei im Verzeichnis 'languages' verwendet wurde (de bei languages.de.inc.php und en bei languages.en.inc.php).
+          <br /><br />
+        </td>
+      </tr>
+      <tr valign="top">
+        <td class="code">$global_template</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          Tragen Sie hier den Pfad zum Global-Template ein. Das ist das Template f&uuml;r das Layout der Seite.
+          <br /><br />
+        </td>
+      </tr>
+      <tr valign="top">
+        <td class="code">$cell_template</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          Tragen Sie hier den Pfad zum Template f&uuml;r die Tabellenzellen ein. Darin k&ouml;nnen Sie die Bilder, die Links zu den gro&szlig;en Bildern und nat&uuml;rlich die Tabellenzellen formatieren.
+          <br /><br />
+        </td>
+      </tr>
+
+      <tr valign="top">
+        <td class="code">$large_image_page</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          Tragen Sie hier den Namen der Datei ein, die beim Klick auf die Links ge&ouml;ffnet werden soll. Das bedeutet, wenn die Datei index.php die Vorschaubilder enthalten soll und die Datei window.php die Gro&szlig;ansicht der Bilder, dann muss in diese Variable in der index.php den Wert window.php enthalten.
+          <br /><br />
+        </td>
+      </tr>
+
+      <tr valign="top">
+        <td class="code">$path['log']</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          Sie k&ouml;nnen die Aufrufe der Bilder durch das Script z&auml;hlen lassen. Diese Variable enth&auml;lt den Pfad zu dem Verzeichnis, in dem die Log-Datei gespeichert wird.
+          <br /><br />
+          Wenn Sie die Z&auml;hlfunktion nutzen m&ouml;chten, stellen Sie bitte sicher, dass das Log-Verzeichnis Schreibrechte besitzt (chmod 777).
+          <br /><br />
+        </td>
+      </tr>
+
+      <tr valign="top">
+        <td class="code">$logging_file</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          Wenn Sie die Aufrufe der Bilder durch das Script z&auml;hlen lassen m&ouml;chten, tragen Sie bitte in diese Variable den gew&uuml;nschten Dateinamen ein. Leerzeichen und Sonderzeichen sind nicht erlaubt. Die Endung k&ouml;nnen Sie selbst w&auml;hlen.
+          <br /><br />
+          Standardm&auml;&szlig;ig ist diese Variable leer, es werden also keine Bildaufrufe gez&auml;hlt, solange Sie keinen Namen f&uuml;r die Log-Datei angeben.
+          <br /><br />
+          Wenn Sie die Z&auml;hlfunktion nutzen m&ouml;chten, stellen Sie bitte sicher, dass das Log-Verzeichnis Schreibrechte besitzt (chmod 777).
+          <br /><br />
+        </td>
+      </tr>
+
+      <tr valign="top">
+        <td class="code">$statistic_file</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          Wenn sie die durch das Script gez&auml;hlten Bildaufrufe f&uuml;r den Besucher sichtbar machen m&ouml;chten, tragen Sie bitte in diese Variable den Namen der Datei ein, die ausgewertet werden soll. Die Werte stehen dann in dem Platzhalter {views} in den HTML-Templates zur Verf&uuml;gung.
+          <br /><br />
+          Als Beispieldatei f&uuml;r die Z&auml;hlfunktion enth&auml;lt das Script die Log-Datei 'gallery_one.txt' im Log-Verzeichnis. Damit soll die Anzeige der Bildaufrufe demonstriert werden.
+          <br /><br />
+          Wenn Sie die Z&auml;hlfunktion nutzen m&ouml;chten, stellen Sie bitte sicher, dass das Log-Verzeichnis Schreibrechte besitzt (chmod 777).
+          <br /><br />
+        </td>
+      </tr>
+
+      <tr valign="top">
+        <td class="code">$add_text</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          Sie k&ouml;nnen weitere Werte, Text, Variablen oder andere Inhalte an dieser Stelle festlegen. Diese Inhalte k&ouml;nnen Sie dann mit Hilfe von entsprechenden Markierungen in geschweiften Klammern in die Templates &uuml;bertragen.
+          <br /><br />
+          Wenn Sie eigene Werte in der Variable $add_text hinzuf&uuml;gen folgen Sie bitte dem Muster, dass durch die beiden Beispieleintr&auml;ge deutlich gemacht wurde.
+          <pre class="code">$add_text = array(
+
+                   'txt_additional' => 'Additional',
+                   'txt_more'       => 'More'
+
+                  );</pre>
+
+          Der erste Teil eines Eintrags (z.B.: txt_additional) stellt den Namen der Platzhalter im Template dar. Wenn Sie also den Wert von txt_additional im Template anzeigen m&ouml;chten, tragen Sie dort den Namen umschlossen von geschweiften Klammern ein - {txt_additional}. Der Name darf keine Leer- oder Sonderzeichen enthalten. Erlaubt ist nur der Unterstrich.
+          <br /><br />
+        </td>
+      </tr>
+    </table>
+
+    <p>Wenn Sie beim Aufruf des Scripts einen leeren Bildschirm (keine Anzeige, keine Fehlermeldung) erhalten, sind Sie wahrscheinlich auf ein Problem gesto&szlig;en, dass uns zwar bekannt, das wir aber noch nicht gel&ouml;st haben. Bitte teilen Sie uns Betriebssystem, PHP-Version und Webserver-Version mit.</p>
+
+    <p align="right"><a href="#top">Nach oben</a></p>
+  </div>
+
+  <div class="chapter">
+    <a name="html"></a>
+    <h4>Anpassung des HTML-Templates</h4>
+
+    <p>Im Verzeichnis '/templates/' befinden sich die Templates, die das Layout des Scripts beinhalten. Mit Hilfe von HTML und CSS k&ouml;nnen Sie das Layout Ihren W&uuml;nschen anpassen.</p>
+
+    <p>Die Templates 'index.html' und 'window.html' beinhalten jeweils das Gesamt-Layout. Die Templates 'table.html' und 'window_table.html' beinhalten das Layout der Tabellenzeilen. Die enthaltene Tabellenzelle (Zeilen- und Zellendefinition) gilt als Beispiel f&uuml;r jede Zelle in der Tabelle und wird entsprechend der Anzahl der Bilder vom Script automatisch vervielf&auml;ltigt.</p>
+
+    <p>Sollten Sie f&uuml;r die Anpassung WYSIWYG-Editoren wie Dreamweaver, Frontpage oder NetObjects verwenden, achten Sie bitte darauf, dass die Software keine eigenm&auml;chtigen Ver&auml;nderungen vornimmt. Die Funktionsweise des Scripts k&ouml;nnte dadurch beeintr&auml;chtigt werden.</p>
+
+    <p>In den Templates befinden sich Markierungen/Platzhalter in geschweiften Klammern, wie zum Beispiel {txt_next_page}. Die werden beim Aufruf des Scripts durch die entsprechenden W&ouml;rter ersetzt. Diese W&ouml;rter finden Sie in der Datei 'languages/language.de.inc.php'. Nat&uuml;rlich k&ouml;nnen Sie diese W&ouml;rter auch &auml;ndern oder an eine andere Position innerhalb des Templates verschieben. Es spricht auch nichts dagegen, wenn Sie die Markierungen durch richtige W&ouml;rter ersetzen. Ebenso k&ouml;nnen Sie die Sprachdatei nach dem vorgegebenen Muster erweitern.</p>
+
+    <p>Neben den Platzhaltern f&uuml;r die W&ouml;rter existieren die so genannten Loops. &Auml;hnlich wie HTML-Tags geh&ouml;rt immer ein Paar zusammen und darf auch nicht getrennt werden (<LOOP ...>...</LOOP>). Sie haben aber die M&ouml;glichkeit, die Position des gesamten Blocks zu ver&auml;ndern.</p>
+
+    <p>Folgende Platzhalter werden vom Script genutzt:</p>
+
+    <pre class="code">
+  {script_name}      Name der Galerie-Datei
+  {prev}             Startwert f&uuml;r die vorhergehende Seite
+  {next}             Startwert f&uuml;r die n&auml;chste Seite
+  {currentpage}      Aktuelle Seitenzahl
+  {allpages}         Gesamte Anzahl der Seiten
+  {allpictures}      Gesamte Anzahl der Bilder
+  {link}             Linknummer der Dateien
+  {page}             Nummer der Dateien
+  {tablecontent}     Inhalt des Tabellen-Templates
+  {large_image_page} Dateiname der Datei f&uuml;r die gro&szlig;en Bilder
+  {number}           Bildnummer
+  {image_url}        Pfad zum Bildverzeichnis
+  {name}             Bildname
+    </pre>
+
+    <p>Das Script wurde f&uuml;r drei verschiedene Ansichten vorkonfiguriert: </p>
+
+    <table border="0" cellpadding="0" cellspacing="0">
+      <tr valign="top">
+        <td><img src="pic/gallery_script_window.gif" width="250" height="217" border="0" alt=""><br /><br /></td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          Fenstermodus. Die gro&szlig;en Bilder werden im PopUp (kleines Fenster) ge&ouml;ffnet. Die Dateinamen der beiden Dateien lauten 'index.php' und 'window.php'. Die Templates lauten 'index.html', 'table.html', 'window.html' und 'window_table.html'.
+          <br /><br />
+        </td>
+      </tr>
+      <tr valign="top">
+        <td><img src="pic/gallery_script_simple.gif" width="250" height="217" border="0" alt=""><br /><br /></td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          Einfacher Modus. Vorschaubilder und gro&szlig;e Bilder werden jeweils im selben Fenster angezeigt. Die Namen der beiden Dateien lauten 'z_simple_index.php' und 'z_simple_window.php'. Das Template f&uuml;r die Vorschaubilderzellen hei&szlig;t 'x_simple_table.html' und das Layout-Template f&uuml;r die Gro&szlig;ansicht hei&szlig;t ' x_simple_window.html'. Die anderen beiden Templates sind die selben wie in der Fenster-Version.
+          <br /><br />
+        </td>
+      </tr>
+      <tr valign="top">
+        <td><img src="pic/gallery_script_frames.gif" width="250" height="217" border="0" alt=""><br /><br /></td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          Die Vorschaublider werden in einem Navigations-Frame angezeigt und die gro&szlig;en Bilder werden im Hauptframe angezeigt. Die Namen der drei Dateien lauten 'y_frame_index.php', 'y_frame_main.php' und 'y_frame_navi.php'. Das Template f&uuml;r die Frame-Index-Seite hei&szlig;t 'x_frame_index.html'. Das Template f&uuml;r die Vorschaubilderzellen hei&szlig;t 'x_frame_navi_table.html'. Die anderen drei Templates sind die selben wie in der Fenster-Version.
+          <br /><br />
+        </td>
+      </tr>
+    </table>
+
+    <h5>Mehrere Bildergalerien einrichten</h5>
+
+    <p>Sie k&ouml;nnen mehrere Bildergalerien mit den selben Layout-Templates betreiben, wenn Sie die Dateien 'index.php' und 'window.php' kopieren und mit einem anderen Dateinamen versehen. Sie m&uuml;ssen dann nur noch den Pfad zum Bildverzeichnis &auml;ndern und schon haben Sie eine weitere Bildergalerie erstellt.</p>
+
+    <p align="right"><a href="#top">Nach oben</a></p>
+  </div>
+
+
+  <div class="chapter">
+    <a name="images"></a>
+    <h4>Die Bilder</h4>
+
+    <p>Die Bildverzeichnisse werden eingelesen und die Bilder danach entsprechend Ihren Einstellungen sortiert. Mit der Benennung der Bilder k&ouml;nnen Sie die Reihenfolge festlegen.</p>
+
+    <p>Optional k&ouml;nnen sie eine Datei mit dem Namen 'image_order.txt' (sofern sie nicht bereits existiert) anlegen und darin die Bildnamen in der gew&uuml;nschten Reihenfolge eintragen (alle Namen untereinander). Die Datei muss sich im entsprechenden Bildverzeichnis befinden.</p>
+
+    <p>Wenn Sie die Bilder anhand des Dateinamens sortieren m&ouml;chten, l&ouml;schen Sie einfach die 'image_order.txt' aus den Bildverzeichnissen.</p>
+
+    <p>Wenn Sie mit Vorschaubildern und zugeh&ouml;rigen gro&szlig;en Bildern arbeiten, m&uuml;ssen die Dateinamen der jeweils zusammen geh&ouml;renden Bilder gleich lauten.</p>
+
+    <p>Achten Sie darauf, dass sich im Bildverzeichnis auch wirklich nur Dateien befinden, die Sie anzeigen m&ouml;chten. Wenn Sie die Datei 'image_order.txt' nicht verwenden m&ouml;chten, l&ouml;schen Sie diese bitte. Umbenennen reicht nicht aus und kann zu Fehlern bei der Anzeige f&uuml;hren.</p>
+
+    <p align="right"><a href="#top">Nach oben</a></p>
+  </div>
+
+
+  <div class="chapter">
+    <a name="count"></a>
+    <h4>Bildaufrufe z&auml;hlen und anzeigen</h4>
+
+    <p>Sie k&ouml;nnen den Aufruf der Bilder vom Script mitz&auml;hlen und anzeigen lassen. Das Z&auml;hlen der Aufrufe aktivieren Sie, indem Sie einen Dateinamen in der Variable $logging_file eintragen. Wenn Sie denselben Dateinamen in der Variable $statistic_file eintragen, wird diese Datei zur Auswertung der Aufrufe verwendet.</p>
+
+    <p>Wenn Sie diese Funktion nutzen, stellen Sie bitte sicher, dass das Verzeichnis 'log' und die Datei, die in $logging_file eingetragen wurde, Schreibrechte besitzen (chmod 777).</p>
+
+    <p>Zur Demonstration der Z&auml;hlfunktion wurden die Dateien 'x_views_index.php' und 'x_views_window.php' eingerichtet. Dazu geh&ouml;ren die Template-Dateien 'x_views_table.html' und 'x_views_window_table.html'. </p>
+
+    <p>Die Templates enthalten innerhalb der &lt;LOOP ...&gt; Tags den Platzhalter {views}. Dieser Platzhalter wird automatisch durch die entsprechende Zahl ersetzt.</p>
+
+    <p>Schauen Sie auch in den Templates 'x_views_table.html' und 'x_views_window_table.html' nach, wie der Platzhalter im HTML-Code eingef&uuml;gt wird.</p>
+
+    <p align="right"><a href="#top">Nach oben</a></p>
+  </div>
+
+
+  <div class="chapter">
+    <a name="captions"></a>
+    <h4>Informationen (z. B. Bildbeschriftungen) den Bildern zuordnen</h4>
+
+    <p>Mit Hilfe der 'image_order.txt' k&ouml;nnen jedem Bild Informationen (Beschriftungen, Beschreibungen) zugeordnet werden.</p>
+
+    <p>Zur Demonstration dieser Funktion wurden die Dateien 'zz_captions_index.php' und 'zz_captions_window.php' eingerichtet. Dazu geh&ouml;rt das Template 'zz_captions_window_table.html'. Die zus&auml;tzlichen Informationen werden bei der Gro&szlig;version des Bildes angezeigt (PopUp-Fenster).</p>
+
+    <p>Die Datei 'image_order.txt' im Verzeichnis 'images/big' enth&auml;lt erweiterte Informationen zur Anzeige beim entsprechenden Bild. Die 'image_order.txt' kann als CSV-Datei angesehen werden. Sie k&ouml;nnen nach dem Dateinamen des Bildes durch Semikolon getrennt weitere Daten eintragen.</p>
+
+    <p>Beispiel:</p>
+
+    <p class="code">01.gif;Bildbezeichnung;Bildbeschreibung</p>
+
+    <p>Jedem Feld (Spalte) wird automatisch ein Platzhalter zum Eintragen im Template zugewiesen. Jede Spalte wird als Feld bezeichnet, gez&auml;hlt wird ab 1 aufw&auml;rts bei jedem neuen Feld.</p>
+
+    <p>Beispiel:</p>
+
+    <p class="code">{field_1} {field_2} {field_3} ...</p>
+
+    <p>Schauen Sie auch im Template 'zz_captions_window_table.html' nach, wie die Platzhalter im HTML-Template eingebunden werden.</p>
+
+    <p align="right"><a href="#top">Nach oben</a></p>
+  </div>
+
+
+
+
+  <div class="chapter">
+    <a name="upload"></a>
+    <h4>Dateien auf den Webserver kopieren - Upload</h4>
+
+    <p>Erstellen Sie auf dem Server folgende Verzeichnisse:</p>
+
+    <p>
+      /galerie/<br />
+      /galerie/images/<br />
+      /galerie/inc/<br />
+      /galerie/languages/<br />
+      /galerie/log/
+      /galerie/templates/<br />
+
+    </p>
+
+    <p>Kopieren Sie alle Dateien in ihre entsprechenden Verzeichnisse auf den Server. Alle Bilddateien (.gif, .jpg, .png) m&uuml;ssen im Bin&auml;r-Modus (Binary) auf den Server &uuml;bertragen werden. Alle restlichen Dateien m&uuml;ssen im ASCII-Modus (Text-Modus) hochgeladen werden. </p>
+
+    <p align="right"><a href="#top">Nach oben</a></p>
+  </div>
+
+
+  <div class="chapter">
+    <a name="lizenzierung"></a>
+    <h4>Nutzung und Lizenzierung</h4>
+
+    <p>Sie k&ouml;nnen das Galerie-Script kostenlos nutzen. Wenn Sie das Script ohne Hinweis und Link auf STADTAUS.com betreiben m&ouml;chten, k&ouml;nnen Sie die Vollversion online erwerben.</p>
+
+    <ol start="1" type="1">
+      <li>Sie k&ouml;nnen die Script-Lizenz an Dritte verkaufen, auch als professioneller Reseller.</li>
+      <li>Den Preis k&ouml;nnen Sie dabei selbst bestimmen.</li>
+      <li>Die Script-Lizenz gilt f&uuml;r eine Domain.</li>
+    </ol>
+
+
+    <p>Kontakt: <a href="http://www.stadtaus.com/" target="_blank">http://www.stadtaus.com/</a></p>
+
+    <p>Weitere Scripts auf STADTAUS.com:</p>
+
+    <ol>
+      <li>Formmail-Script</li>
+      <li>Tell-A-Friend-Script (Website-Empfehlung)</li>
+      <li>Apotheken-Notdienstkalender</li>
+      <li>Website-Empfehlungs-Script</li>
+      <li>Online-Terminplaner</li>
+      <li>Google-Tool</li>
+      <li>Download-Script</li>
+      <li>G&auml;stebuch-Script</li>
+      <li>Voting-Script</li>
+    </ol>
+
+
+    <p>Besuchen Sie unser Projekt MetaCollection. Die Seite ist ein Verzeichnis deutscher und internationaler Script-Archive.</p>
+
+    <p><a href="http://www.metacollection.com/">http://www.metacollection.com/</a></p>
+
+    <p align="right"><a href="#top">Nach oben</a></p>
+  </div>
+
+
+  <div class="chapter">
+    <a name="support"></a>
+    <h4>Support</h4>
+
+    <p>Antworten auf Ihre Fragen und L&ouml;sungen f&uuml;r Probleme mit dem Script finden Sie in unserem
+    <a href="http://www.stadtaus.com/forum/" target="_blank">Support-Forum</a>.</p>
+
+    <p align="right"><a href="#top">Nach oben</a></p>
+  </div>
+
+</body>
+</html>

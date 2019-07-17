@@ -1,0 +1,65 @@
+<FORM enctype="multipart/form-data"
+	action="cal_menue.php?go=tclacontacts&dir=cal_script&func=musik_new"
+	accept-charset="ISO-8859-1" method="post">
+<TABLE border="1" width="600">
+	<TBODY>
+		<tr>
+			<td>Vorname</td>
+			<td>Nachname</td>
+			<td>Email</td>
+			<td>Kennzeichen</td>
+			<td>senden</td>
+		</tr>
+
+		<tr>
+
+
+			<td><input id="id_FIRSTNAME" type="text" name="FIRSTNAME"
+				maxlength="64" /></td>
+
+			<td><input id="id_LASTNAME" type="text" name="LASTNAME"
+				maxlength="64" /></td>
+			<td><input id="id_EMAILADDRESS" type="text" name="EMAILADDRESS"
+				maxlength="64" /></td>
+
+			<td><input id="id_KFZ" type="text" name="KFZ" maxlength="12" /></td>
+
+			<td><input type="hidden" name="EIGENSCHAFT" value="Musiker"> <input
+				type="submit" name="senden" value="Abschicken" /></td>
+		</tr>
+	</TBODY>
+</TABLE>
+</form>
+
+
+<TABLE border='1' bgcolor='#202020' width='600'>
+	<TBODY>
+		<TR>
+			<TD class='col0'><font color='red'> Anmeldefehler </font></td>
+		</tr>
+		<TR>
+			<TD class='col1'>
+			<FORM
+				action='cal_menue.php?go=tclacontacts.inc&func=user_login_check&dir=cal_script'
+				method='post'><input id='EMAILADDRESS' style='height: 20px'
+				maxlength='64' size='15' name='EMAILADDRESS'> E-Mail <br>
+			<input id='PWD' type='password' style='height: 20px' maxlength='30'
+				size='15' name='PWD'> Passwort <br>
+			<input type='submit' style='height: 20px' value='absenden'></form>
+
+			</TD>
+			<td class='col1'>Benutzername und/oder Passwort sind nicht korrekt.</td>
+		</tr>
+		<tr>
+			<td class='col1'>
+			<FORM id=PWD METHOD='POST'
+				ACTION='cal_menue.php?go=sendmail.inc&dir=cal_script&func=mail_pwd'
+				name='PWD_SERVICE'><br>
+			<input id='EMAILADDRESS' style='height: 20px' maxlength='64'
+				size='20' name='EMAILADDRESS'> <input class='action' type='submit'
+				value='absenden' name='senden'></FORM>
+			</td>
+			<td class='col1'>Wenn Sie Ihr Passwort oder Ihren Benutzernamen
+			vergessen haben, geben Sie Ihre E-Mail-Adresse ein!</td>
+		</tr>
+</table>

@@ -1,0 +1,15 @@
+01.gif;abc;123
+04.gif;def;456
+03.gif;ghi;789
+02.gif;jkl;111
+05.gif;mno;222
+06.gif;pqr;333
+07.gif;stu;444
+08.gif;vwx;555
+09.gif;aaa;666
+10.gif;bbb;777
+12.gif;ccc;888
+11.gif;ddd;999
+13.gif;eee;000
+14.gif;fff;987
+15.gif;ggg;654

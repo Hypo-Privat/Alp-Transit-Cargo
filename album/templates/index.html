@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!doctype html public "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>{txt_script_name} {txt_script_version}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset={txt_charset}" />
+     <link rel="stylesheet" type="text/css" href="../cal_pics/cla.css" />
+    <!--
+   <style type="text/css">
+   
+      h2, p, body, td {
+          font-family:Arial, Helvetica, Sans-serif;
+      }
+
+      #poweredby {
+          text-align:center;
+      }
+
+   
+    </style> 
+    -->
+  </head>
+
+  <body>
+    <h2> </h2>
+    <p>
+
+      <IF NAME="prev_page">
+        <span style="font-weight:bold;">&raquo;&nbsp;<a href="./{script_name}">{txt_start}</a></span> &nbsp;&nbsp;&nbsp;
+        <span style="font-weight:bold;">&raquo;&nbsp;<a href="./{script_name}?{prev}">{txt_previous_page}</a></span>
+      </IF NAME="prev_page">
+
+      &nbsp;&nbsp;&nbsp; {currentpage}/{allpages} &nbsp;&nbsp;&nbsp; ({txt_number_of_pictures}: {allpictures}) &nbsp;&nbsp;&nbsp;
+
+      <IF NAME="next_page">
+        <span style="font-weight:bold;">&raquo;&nbsp;<a href="./{script_name}?{next}">{txt_next_page}</a></span>
+      </IF NAME="next_page">
+
+    </p>
+
+    <p>
+      <span style="font-weight:bold;">
+        {txt_pages}:
+        <LOOP NAME="page_direct"><a href="./{script_name}?{link}"> {page} </a>&nbsp;</LOOP NAME="page_direct">
+      </span>
+    </p>
+
+    <LOOP NAME="show_table">
+      <table cellspacing="10" cellpadding="1" border="0">
+        {tablecontent}
+      </table>
+    </LOOP NAME="show_table">
+
+
+    <p>&nbsp;</p>
+
+
+</body>
+</html>

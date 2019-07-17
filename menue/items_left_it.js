@@ -1,0 +1,28 @@
+var tmenuItems = [
+    ["Registo","menue_call.php?go=tcontacts_data.inc&func=user_reg&dir=includes", "", "", "", "Als neuer User registrieren", "", "", "", ],
+   ["D'OFFERTA","", "", "", "", "", "", "", "", ],
+           ["||di trasporto","menue_call.php?go=ttourkfz_data.inc&func=tourkfz_reg&value=quick&dir=includes", "", "", "Fracht angebot anpassen ?", "", "", "", "", ],
+           ["||di veicolo","menue_call.php?go=ttourlad_data.inc&func=tourlad_reg&value=quick&dir=includes", "", "", "Fahrzeug fÃ¼r Tour anbieten ?", "", "", "", "", ],
+           ["||di rimozione","menue_call.php?go=tumz_data.inc&func=umz_reg&value=quick&dir=includes", "", "", "Umzug Tour anbieten ?", "", "", "", "", ],
+     ["LE INFORMAZONI","", "", "", "", "", "", "", "", ],
+            ["|TARIFFA","", "", "", "", "", "", "", "", ],
+            ["||La Svizzera","http://www.ezv.admin.ch/index.html?lang=it", "", "", "", "", "_blank", "", "", ],
+            ["||L'Austria","http://www.bmf.gv.at/zoll/_start.htm", "", "", "", "", "_blank", "", "", ],
+            ["||EU","http://ec.europa.eu/taxation_customs/customs/customs_controls/risk_management/customs_eu/index_it.htm", "", "", "", "", "_blank", "", "", ],
+            ["||Frankreich","http://www.douane.gouv.fr/menu.asp?id=511", "", "", "", "", "_blank", "", "", ],
+            ["||La Slovenia","http://e-uprava.gov.si/e-uprava/en/zivljenjskeSituacijeDrevo.euprava?dogodek.id=12485", "", "", "", "", "_blank", "", "", ],
+         ["NOI","", "", "", "", "XP Title Tip", "", "", "", ],
+        ["|Stampa","menue_call.php?go=impressum&dir=dyn", "", "", "", "", "", "", "", ],
+        ["|CMG","menue_call.php?go=agb_&dir=stat", "", "", "", "", "", "", "", ],
+            ["Supporto - Assistenza","menue_call.php?go=support&dir=dyn", "", "", "", "", "", "", "", ],
+     ["Pressa","menue_call.php?go=presse&dir=dyn", "", "", "", "", "", "", "", ],   ["Blog","http://alpenentransit.blogspot.com", "", "", "", "", "_blank", "", "", ],
+    ["Sitemap","menue_call.php?go=atc_sitemap_&dir=stat", "", "", "", "", "", "", "", ],
+ 
+ ];
+/* ["|Protezione alpina","", "", "", "", "", "", "", "", ],
+			["||monitraf","http://www.monitraf.org/33.html", "", "", "", "", "_blank", "", "", ],            
+            ["||La Convenzione delle Alpi","http://www.alpenkonvention.org/page1_it.htm", "", "", "", "", "_blank", "", "", ],
+            ["||Cipra","http://cipra.4teamwork.ch/it", "", "", "", "", "_blank", "", "", ],
+            ["||Iniziativa da las alps","http://www.alpentransitboerse.ch", "", "", "", "", "_blank", "", "", ],
+            ["||La Svizzera","http://www.uvek.admin.ch/themen/umwelt/00640/00642/index.html?lang=it", "", "", "", "", "_blank", "", "", ],
+   */

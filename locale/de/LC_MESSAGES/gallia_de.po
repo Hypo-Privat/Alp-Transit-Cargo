@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This is the File for German language
+msgid ""
+msgstr ""
+"Last-Translator: Gert Dorn <gert.dorn@a-t-c.ch>\n"
+"PO-Revision-Date: 2010-10-26 10:21+0100\n"
+"X-Poedit-KeywordsList: login;trans\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-10 11:55+0200\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poeödit-SourceCharset: iso-8859-15\n"
+"X-Poedit-Language: German\n"
+"Language-Team: German <gert.dorn@a-t-c.ch>\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Project-Id-Version: Gallia\n"
+"Plural-Forms: nplurals=0; null;\n"
+
+# global design vars
+msgid "table1"
+msgstr "<table width='700px' border='0' cellspacing='0' cellpadding='0' align='center'>"
+
+msgid "table_end"
+msgstr "</table>"
+
+msgid "tr_line"
+msgstr "<tr><td width='700px'  align='left'>  <img src='gallia/images/film.jpg'><b> ..there show an film sequenz ...</b></td></tr>"
+
+msgid "tr"
+msgstr "<tr>"
+
+msgid "tr_end"
+msgstr "</tr>"
+
+msgid "td"
+msgstr "<TD  align='center'>"
+
+msgid "td_titel"
+msgstr "<TD class='titel' width='700px' align='center'>"
+
+msgid "td_typ1"
+msgstr "<TD class='typ1'>"
+
+msgid "td_typ2"
+msgstr "<TD class='typ2'>"
+
+msgid "td_end"
+msgstr "</TD>"
+
+# Welcome page
+msgid "welcome_titel"
+msgstr "<h2>Willkommen auf unserer Homepage!</h2>"
+
+msgid "welcome"
+msgstr "<B>  Gallia Films </B> eine Produktionsfirma in Kanada und Frankreich spezialisiert auf Englisch und Französisch Spielfilme für Kino und Fernsehen basiert. <B> Gallia Films </B> entwickelt leichte Komödien und Dramen für ein großes Publikum. Alain Delahaie aformer Anwalt und Geschäftsmann und Christine Kennedy eine internationale taxlawyer sind <B> Gallia Films </B> Regisseure. <B> Gallia </B> 'Hauptprojekt für 2008 s ist die Herstellung von' Maudits Français 'in Montreal und Paris ."
+
+# contact page
+msgid "contact"
+msgstr "<td class='typ1'><b>GALLIA FILMS</b><br />1719 St. Patrick, Suite 301-C<br >Montreal, Qc, Canada  H3K 3G9<br >Office: 1 514 905 6581<br >Cell: 1 416 879 3456<br >France : 06 67 18 56 49<br >Mail : <a href=\"mailto:delahaiealain@hotmail.com\" id=\"mail2\">Gallia's Director</a>.</td>"
+
+# intership page
+msgid "intership_titel"
+msgstr "<h2>Bewerben Sie sich bei Gallia Filme für ein Praktikum in einer Produktionsfirma.</h2>"
+
+msgid "intership_txt"
+msgstr "Erfahren Sie, wie Filme entwickelt und finanziert. <br> Erkunden Sie die Wirtschaft und Verwaltung der Herstellung von Filmen in einer kreativen und anregenden Umgebung. Studierende <font color='red'> <u> mit einem Film </u> </font>, Kommunikation und Verwaltung Hintergrund. <br> Möglichkeit der Beschaffung von Krediten mit Ihrer Bildungseinrichtung. <br> Englisch, Französisch bevorzugt, Computer-Grundkenntnisse und die Wertschätzung des Films Industrie und Handwerk sind erforderlich. <br>"
+
+# intership form
+msgid "intership_form"
+msgstr " <tr> <td class='typ1' width='50%' ><form method='post' action='upload.php' enctype='multipart/form-data'></form><b>Firstname :</b></td> <td class='typ1'>&nbsp;&nbsp;<input type='text' name='firstname'> </td> </tr> <tr> <td class='typ1'><b>Lastname :</b></td> <td class='typ1'>&nbsp;&nbsp;<input type='text' name='lastname'></td> </tr> <tr> <td class='typ1'><b>Mail :</b></td> <td class='typ1'>&nbsp;&nbsp;<input type='text' name='mail'></td> </tr> <tr> <td class='typ1'><b>Age :</b></td> <td class='typ1'>&nbsp;&nbsp;<input type='text' name='age'></td> </tr> <tr> <td class='typ1'><b>City :</b></td> <td class='typ1'>&nbsp;&nbsp;<input type='text' name='city'></td> </tr> <tr> <td class='typ1'><b>Motivation :</b></td> <td class='typ1'>&nbsp;&nbsp; <textarea name='motivation' cols='50' rows='10'></textarea></td> </tr> <tr> <td colspan='2' class='typ1'><input name='submit' type='submit' value='Send'></td></tr>"
+
+# aboutus page
+msgid "about_Alain_titel"
+msgstr "Delahaie Alain - Producer"
+
+msgid "about_Alain"
+msgstr "Alain Delahaie geboren und aufgewachsen in der Bretagne Frankreich. Seine Mutter Nicole erkannte seine freie Geist in einem frühen Alter und gab ihm große Freiheit, seine Bemühungen fortzusetzen. Alain wurde in den USA, Kanada, Großbritannien und Spanien erzogen. Nach dem Studium der internationalen Beziehungen lehrte er Französisch und Spanisch und arbeitete von 1994-1996 für die Französisch diplomatischen Korps in Boston. Nach dem Studium an der McGill und Harvard Law Schools wurde er Rechtsanwalt und Berater. Er wagte erfolgreich in Immobilien in Kanada und leitet heute eine Boutique Produktionsfirma nach Abschluss der Filmschule an der Ryerson in Toronto. Er hat inszenierte und produzierte Mr. Nice Guy (2006) und To Hell, With You (2006)."
+
+msgid "about_Christine_titel"
+msgstr "Kennedy Christine< - Treasurer"
+
+msgid "about_Christine"
+msgstr "Christine geboren und aufgewachsen in Montreal. Nach einem Jahr in Israel in einem Kibbuz studierte sie Technische Redaktion an der University of Waterloo. Sie arbeitete für das Ministerium der Justiz in Ottawa und studierte Rechts-und Rechnungswesen an der McGill. Sie war ein Rechtsanwalt und Manager bei M & M Anwaltskanzlei und KPMG-Partner in Toronto. Sie ist jetzt der Steuer-und Beratung Kopf für die UBS in Kanada. Sie ist spezialisiert auf internationales Unternehmenssteuerrecht und grenzüberschreitende Finanzierungen. Sie lehrt Internationales Steuerrecht Kurse an der CICA. Christine liefert wertvolle Buchführung, rechtliche, steuerliche und technische Schreibfähigkeiten zu Gallia."
+
+msgid "about_Szonja_titel"
+msgstr "Jakovits Szonja"
+
+msgid "about_Szonja"
+msgstr "Szonja wurde in Providence, Rhode Island erhoben. Sie bekam ihren Start in der 'Industrie' arbeiten Stage Management an der Trinity Repertory Company. Nach dem Besuch der Rhode Island College, Kanada tourte sie mit Bill Glassco Inszenierung von 'Nothing Sacred' im Jahr 1989. Sie verbrachte dann zwei Jahre in Seattle als Stage Manager für ACT, Alice B. und Empty Spaces Theater. Im Jahr 1991 zog sie nach Budapest, Ungarn und arbeitete als Script Supervisor in der europäischen Filmindustrie. Sie gründete das Konzept des Script Supervision in Ungarn, wodurch Kamera Bettzeug und Script-Protokolle, die heute Standard gibt. Im Jahr 2001 zog sie nach Toronto, Kanada, wo sie in zahlreichen unabhängigen Produktionen gearbeitet hat, als 2. Stellvertretender Direktor und Produktionsleiter / Production Coordinator und Visual Effects-Koordinator. Sie war der Schlüssel in immer viele kleine Produktionen 'grünes Licht' durch ACTRA TIP-Programm zu erleichtern und so zum ersten Mal Regie und Produktion vollständig ihren Traum von ihrer ersten Independent-Film. Sie bietet Gallia Films unschätzbare technische Kompetenz, Begeisterung und Energie."
+
+msgid "about_Ronit_titel"
+msgstr "Milo Ronit - Creative Assistant"
+
+msgid "about_Ronit"
+msgstr "Ronit geboren und aufgewachsen in Montreal, Kanada. Sein erzogen von einer künstlerischen Familie kultiviert ihr Interesse in den Medien an einem jungen Alter. Während ihres Studiums in Creative Arts am Dawson College erhielt Ronit die Trudie Mason Award für Excellence News Broadcast für ihren Beitrag zur Campus-Radio. Während ihres B.A. in Kommunikationswissenschaft an der Concordia, produziert Ronit zwei tägliche Radio-Talkshows für Radio CJAD 800, ein Geschäftsbereich von Standard Broadcasting. Dort hatte sie das Vergnügen der Herstellung einer Show der Journalist, dessen Name auf Ronit's Award zugeschrieben gehostet. Im Jahr 2005 zog Ronit nach Toronto, wo sie weiter erforscht ihr Interesse an Fernsehen. Sie trug als Forscher auf eine Reihe unabhängiger Produktionen, einschließlich der Programme Lüften auf dem Discovery Channel und der W Netzwerk."
+
+# film_projects
+msgid "logo"
+msgstr "<img   src='gallia/images/ecrire.jpg' width='250'>"
+
+msgid "see_en"
+msgstr " <h1>Sehen Sie unsere Filme Projekte in englischer Sprache</h1> "
+
+msgid "see_fr"
+msgstr " <h1>Sehen Sie unsere Filme Projekte in Französisch</h1>  "
+
+msgid "Consulat_tilel"
+msgstr "<h2> Generalkonsulat </h2> <h3> Elite Diplomatie Manöver Zwischen Champagner und Hors d'oeuvres. </H3>"
+
+msgid "Consulat_detail"
+msgstr "<b>  Genre: </b> Langmetrage-Comédie <b> - Sprache: </b>  <img src='gallia/images/france_small.png'> <b> - Storybook: </b> öffnen <br >  <b> Produzent: </b> öffnen <b> - Investor / Partner: </b> <a class=kursiv href='mailto:delahaiealain@hotmail.com?Subject=Partnership Consulat Général:'> kontaktieren Sie uns < / a> <b> - Erscheinungsjahr: </b> öffnen"
+
+msgid "Consulat_discription"
+msgstr "In der charmanten Stadt Boston, ein Team Amateur Außenministerium verwaltet ihre Herde und beteiligt sich an dem Einfluss von Frankreich. Nicht eine diplomatische oder konsularische Vertreter spricht kein Englisch und kennt seinen Job; totalen Verwirrung herrscht. Der Konsul nahm für De Gaulle und zudem als sehr volatil, springt er auf alles was sich bewegt. Seine Frau depressiv und hysterisch Selbstmord jede Woche und Turbulenzen Koch und dem Fahrer. Die konsularischen Personals drei Stunden pro Tag und sendet eine sehr verwässert Mittagessen. Nur junge Empfangsdame, der Politikwissenschaft und englischsprachigen verliebt gut, retten die Ehre und spielt die Botschafter und Verlust din. Diplomatischen Zwischenfall zwischen Washington und Paris gewährleistet. Im Land von Französisch Atomtests, wird das FBI, Greenpeace und der US Navy haben ihre Zeit. <br> "
+
+msgid "Maudits_tilel"
+msgstr "  <h2>Verdammt Französisch! </H2> <h3> stört Sie nicht, es ist wie zu Hause.</h3> "
+
+msgid "Maudits_detail"
+msgstr "<b>  Genre: </b> Langmetrage-Comédie <b> - Sprache: </b>  <img src='gallia/images/france_small.png'> <b> - Storybook: </b> öffnen <br >  <b> Produzent: </b> öffnen <b> - Investor / Partner: </b> <a class=kursiv href='mailto:delahaiealain@hotmail.com?Subject=Partnership Mein Maudits Français:'> kontaktieren Sie uns </a> <b> - Erscheinungsjahr: </b> öffnen"
+
+msgid "Maudits_discription"
+msgstr "Jean-Charles, einem wohlhabenden Französisch, manche schmal und chauvinistisch, in Nordamerika in Montreal nieder, um den amerikanischen Traum zu leben. Er hasst die Quebec Akzent und hat viele Probleme mit lokalen Lebens anzupassen. Dieses charmante Großmaul alle Fehler und Fehltritte unvorstellbar gemacht. Es rasseln und kritisch zu jedem Azimut, weinen, dass die Schlösser in Spanien Frankreich verlassen haben. In seiner Eskapaden Montreal, Sitzung er andere Europäer und Französisch bunt, mit denen Er freundet sich und macht die vierhundert Schläge. Die Notwendigkeit und der Nachholbedarf nach einem Sturz auf den niedrigsten, wird es immer bescheiden, tolerant und unabhängig."
+
+msgid "KingKasba_tilel"
+msgstr " <h2>König der Kasba! </H2> <h3> Einlösen auf den Propheten.</h3> "
+
+msgid "KingKasba_detail"
+msgstr "<b> Genre: </ b> Short-comedey <b> - Sprache: </ b> <img src='gallia/images/uk_small.png'> <b> - Storybook: </ b> öffnen <br> <b> Produzent: </ b> öffnen <b> - Investor / Partner: </ b> <a class=kursiv href='mailto:delahaiealain@hotmail.com?Subject=Partnership König der Kasba:'> kontaktieren Sie uns </ a> <b> - Erscheinungsjahr: </ b> öffnen"
+
+msgid "KingKasba_discription"
+msgstr "Zia ist ein junger Pakistani säkularen Studium in Nordamerika. Er will nicht in den Nahen Osten zurückkehren, um sich einem liegt Ehe, Familie und Geschäft das islamische Recht. Er spricht mit seinem besten Freund, Alain, über seine Liebe für den Westen, und sie teilen beide provokanten Ideen über Religion, den Propheten, und wie sie zu Sex und Geld beziehen. Alain deutet auf die Möglichkeit, dass Zia konnte nach Dubai, die Vegas von Arabien, wo der Islam mit der Moderne flirtet bewegen."
+
+msgid "MaineGirl_tilel"
+msgstr " <h2>Meine Maine Girl </h2> <h3> über seine Jahre und vor ihrer Zeit.</h3> "
+
+msgid "MaineGirl_detail"
+msgstr "<b> Genre: </b> Feature-Drama <b> - Sprache: </b> <img src='gallia/images/uk_small.png'> <b> - Storybook: </b> öffnen <br> <b>  Produzent: </b> öffnen <b> - Investor / Partner: </b> <a class=kursiv href='mailto:delahaiealain@hotmail.com?Subject=Partnership Meine Maine Girl:'> kontaktieren Sie uns </a> <b> - Erscheinungsjahr: </b> öffnen"
+
+msgid "MaineGirl_discription"
+msgstr "In einem Küstendorf von Maine, ein 17-jähriger Austauschstudent Französisch und seine 42-jährige Amerikaner Gastmutter verlieben sich ineinander. Gemeinsam Gesicht Nicolas und Nancy die puritanische Reaktion von Familie, Freunden und Schule Beamten. Der hübsche Teenager wird von seinem Berufsberater denunziert und nach Frankreich abgeschoben. Dennoch findet er seinen Weg nach Hause zu Nancy. Das Leben als Paar nimmt seinen Lauf, als sie näher und wachsen voneinander lernen. Nach vier glücklichen Jahren, schiebt Nancy Nicolas, um seine Träume zu leben? und zu verlassen. Sie weiß, dass das Leben kurz ist und der Besitz ist nicht die wahre Liebe."
+
+# films_done
+msgid "hell_titel"
+msgstr "<img src='gallia/images/thwy.jpg'> <h2>To Hell, With You </h2> <h3> Bitte schlaf mit mir wieder! Ich möchte nicht auf meine Privilegien zu nutzen. </H3>"
+
+msgid "hell_detail"
+msgstr "<b> Genre: </b> Short-Comedy/Drama <b> - Sprache: </b> <img src='gallia/images/uk_small.png'> <b> - Storybook: </b> öffnen < b> - Produzent: </b> öffnen <b> - Erscheinungsjahr: </b> öffnen"
+
+msgid "hell_discription"
+msgstr "Adam und Lilith Form eines modernen und glückliches Paar. Sie sind beide sehr erfolgreich und genießen Sie einen komfortablen urbanen Lifestyle. Das Paar ist nicht mehr intim. Lilith erlaubt Ehegatten zu wagen außerhalb der Ehe, aber diese Situation beginnt sich zu ihm zu vereiteln. Adam will eigentlich sie, weil er völlig seine Libido mit anderen Frauen verloren und muss sie an sein Laufwerk freizugeben. In Befragung ihrer Beziehung untersuchen sie die Gründe, warum sie zusammen bleiben, analysieren ihre Freundschaft, Vertrauen und materiellen Problemen. Sie kennen einander gut und würde nicht zu Fuß die Erde mit einem anderen?"
+
+msgid "niceguy_titel"
+msgstr "<img  src='gallia/images/mng.jpg'>  <h2>Mr. Nice Guy </h2> <h3> zu höflich, um ehrlich zu sein.</h3>"
+
+msgid "niceguy_detail"
+msgstr "<b> Genre: </b> Kurz-Comedy <b> - Sprache: </b> <img src='gallia/images/uk_small.png'> <b> - Storybook: </b> öffnen <b> - Produzent: </b> öffnen <b> - Erscheinungsjahr: </b> 2006"
+
+msgid "niceguy_discription"
+msgstr "Herr Smith ist ein ganz Gentleman, dass jeder gerne sein scheint. Sunny seinem Hausmeister erzählt eine andere Geschichte hinter dem Bild des charmanten Kerl. Herr Smith ist ein Betrüger und ein Spieler, er betet in der Kirche und gewinnt auf den Pferden groß. Er ist ein ruhender Vater, spielt aber Vaterfigur für seine Nachbarn Tochter, die er versucht zu verführen sein. Sunny ist ein teuflischer Engel, die die Schlüssel zum Himmel, und er Tricks Herrn Smith und schickt ihn in den Knast."
+

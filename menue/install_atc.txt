@@ -1,0 +1,80 @@
+
+How to Setup Deluxe Menu into HTML Page 
+
+1. Open the folder where you saved the project. This folder contains:
+       - atc_main.js file - the file with menu parameters and items;
+       - atc_main.files folder - the folder with menu engine js files and images.
+
+2. Copy atc_main.js file and atc_main.files folder into the folder where html file is placed.
+
+3. Open your html file in text editor, copy the following code into clipboard and paste it into the <head> tag:
+
+         <!-- Deluxe Menu -->
+    <noscript><a href="http://deluxe-menu.com">Javascript Menu by Deluxe-Menu.com</a></noscript>
+    <script type="text/javascript">var dmWorkPath = "atc_main.files/";</script>
+    <script type="text/javascript" src="atc_main.files/dmenu.js"></script>
+    <!-- (c) 2007, by Deluxe-Menu.com --> 
+
+    If you use the html editor such as Frontpage or Dreamweaver and it brakes html code of your page when you paste the menu, move the above code after <body> tag. 
+
+4. Copy the following code into clipboard and paste it into the place you want to have the menu:
+
+           <script type="text/javascript" src="atc_main.js"></script> 
+
+    For example, into a table cell:
+        <table>
+            <td><script type="text/javascript" src="atc_main.js"></script></td>
+        </table>
+
+
+5. Save your html file and enjoy the menu! 
+--------------------------------------------------------------------------------
+
+How to Setup Deluxe Menu into HTML Page with Frameset
+(Cross-frame Mode) 
+
+The cross-frame mode is used when your website has a frame-based structure (<frameset>). In this case the top-menu is placed in one frame and submenus are shown in another one. For more info see cross-frame mode sample. 
+
+1. Open the folder where you saved the project. This folder contains:
+       - atc_main.js file - the file with menu parameters and items;
+       - atc_main.files folder - the folder with menu engine js files and images.
+
+2. Copy atc_main.js file and atc_main.files folder into the folder where html file is placed.
+
+3. Open html file of top-menu frame in text editor, copy the following code into clipboard and paste it into the <head> tag:
+
+         <!-- Deluxe Menu -->
+    <noscript><a href="http://deluxe-menu.com">Javascript Menu by Deluxe-Menu.com</a></noscript>
+    <script type="text/javascript">var dmWorkPath = "atc_main.files/";</script>
+    <script type="text/javascript" src="atc_main.files/dmenu.js"></script>
+    <!-- (c) 2007, by Deluxe-Menu.com --> 
+
+    If you use the html editor such as Frontpage or Dreamweaver and it brakes html code of your page when you paste the menu, move the above code after <body> tag. 
+
+4. Copy the following code into clipboard and paste it into the place you want to have the menu:
+
+           <script type="text/javascript" src="atc_main.js"></script> 
+
+5. Set id property for the <frameset> tag. For example:
+
+         <frameset id="frmSet" rows="200,*">
+             <frame src="topmenu.html">
+             <frame src="content.html">
+         </frameset>
+
+
+6. Open atc_main.js file in text editor and replace dm_init(); function to dm_initFrame(); at the end of the file:
+
+    dm_initFrame(framesetID, topFrameInd, subFrameInd, frameOrientation); 
+
+  Where:
+    framesetID - id attribute of the <frameset> tag;
+    topFrameInd - index of the frame with the top-menu, >=0;
+    subFrameInd - index of the subframe with submenus, >=0;
+    frameOrientation = 0/1 - orientation of the <frameset>: 0 - horizontal, 1 - vertical.
+
+  For example:   dm_initFrame("frmSet", 0, 1, 0);
+
+
+7. Save your html file and atc_main.js file and enjoy the menu! 
+

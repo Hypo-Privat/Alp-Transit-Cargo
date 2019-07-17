@@ -1,0 +1,9 @@
+# robots.txt zu http://www.classicaulac.ch/
+
+User-agent: UniversalRobot/1.0
+User-agent: classicaulac
+
+
+# Alle Robots ausschlieﬂen
+User-agent: *
+#Disallow: /images/

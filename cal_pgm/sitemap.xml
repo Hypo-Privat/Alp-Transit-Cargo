@@ -1,0 +1,95 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:codesearch="http://www.google.com/codesearch/schemas/sitemap/1.0">
+
+	<url>
+		<loc>http://www.classicaulac.ch/cal_pgm/orchester.html</loc>
+		<codesearch:codesearch>
+			<codesearch:filetype>C</codesearch:filetype>
+			<codesearch:license>LGPL</codesearch:license>
+		</codesearch:codesearch>
+	</url>
+
+	<url>
+		<loc>http://www.classicaulac.ch/cal_pgm/location.html</loc>
+		<codesearch:codesearch>
+			<codesearch:filetype>C</codesearch:filetype>
+			<codesearch:license>LGPL</codesearch:license>
+		</codesearch:codesearch>
+	</url>
+
+
+	<url>
+		<loc>http://www.classicaulac.ch/cal_pgm/programm.html</loc>
+		<codesearch:codesearch>
+			<codesearch:filetype>C</codesearch:filetype>
+			<codesearch:license>LGPL</codesearch:license>
+		</codesearch:codesearch>
+	</url>
+
+	<url>
+		<loc>http://www.classicaulac.ch/cal_pgm/organisation.html</loc>
+		<codesearch:codesearch>
+			<codesearch:filetype>C</codesearch:filetype>
+			<codesearch:license>LGPL</codesearch:license>
+		</codesearch:codesearch>
+	</url>
+
+	<url>
+		<loc>http://www.classicaulac.ch/cal_pgm/helfer.html</loc>
+		<codesearch:codesearch>
+			<codesearch:filetype>C</codesearch:filetype>
+			<codesearch:license>LGPL</codesearch:license>
+		</codesearch:codesearch>
+	</url>
+
+	<url>
+		<loc>http://www.classicaulac.ch/cal_pgm/anfahrt.html</loc>
+		<codesearch:codesearch>
+			<codesearch:filetype>C</codesearch:filetype>
+			<codesearch:license>LGPL</codesearch:license>
+		</codesearch:codesearch>
+	</url>
+
+	<url>
+		<loc>http://www.classicaulac.ch/cal_pgm/avb.html</loc>
+		<codesearch:codesearch>
+			<codesearch:filetype>C</codesearch:filetype>
+			<codesearch:license>LGPL</codesearch:license>
+		</codesearch:codesearch>
+	</url>
+	<url>
+		<loc>http://www.classicaulac.ch/cal_pgm/orchester.html</loc>
+		<codesearch:codesearch>
+			<codesearch:filetype>C</codesearch:filetype>
+			<codesearch:license>LGPL</codesearch:license>
+		</codesearch:codesearch>
+	</url>
+	<url>
+		<loc>http://www.classicaulac.ch/cal_pgm/foerderer.html</loc>
+		<codesearch:codesearch>
+			<codesearch:filetype>C</codesearch:filetype>
+			<codesearch:license>LGPL</codesearch:license>
+		</codesearch:codesearch>
+	</url>
+	<url>
+		<loc>http://www.classicaulac.ch/cal_pgm/stage.html</loc>
+		<codesearch:codesearch>
+			<codesearch:filetype>C</codesearch:filetype>
+			<codesearch:license>LGPL</codesearch:license>
+		</codesearch:codesearch>
+	</url>
+	<url>
+		<loc>http://www.classicaulac.ch/index.php</loc>
+		<codesearch:codesearch>
+			<codesearch:filetype>C</codesearch:filetype>
+			<codesearch:license>LGPL</codesearch:license>
+		</codesearch:codesearch>
+	</url>
+	<url>
+		<loc>http://www.a-t-c.ch/index.html</loc>
+		<codesearch:codesearch>
+			<codesearch:filetype>C</codesearch:filetype>
+			<codesearch:license>LGPL</codesearch:license>
+		</codesearch:codesearch>
+	</url>
+</urlset>

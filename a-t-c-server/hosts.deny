@@ -1,0 +1,48 @@
+#
+# hosts.deny	This file describes the names of the hosts which are
+#		*not* allowed to use the local INET services, as decided
+#		by the '/usr/sbin/tcpd' server.
+#
+# The portmap line is redundant, but it is left to remind you that
+# the new secure portmap uses hosts.deny and hosts.allow.  In particular
+# you should know that NFS uses portmap!
+
+ALL : ns2.hooglander.com
+ALL : 220.67.128.194
+ALL : 128.122.186.79 
+ALL : 151.13.64.98
+ALL : 189.43.21.244
+ALL : 190.60.41.82  
+ALL : 194.165.132.66
+ALL : 194.95.44.151  
+ALL : 195.250.188.225 
+ALL : 200.148.241.202
+ALL : 200.21.193.154 
+ALL : 200.213.21.3
+ALL : 200.76.176.37
+ALL : 200.93.147.114 
+ALL : 201.34.253.228
+ALL : 201.6.150.22 
+ALL : 210.75.200.9
+ALL : 212.203.34.40
+ALL : 217.125.54.170 
+ALL : 217.128.178.27 
+ALL : 217.41.8.44 
+ALL : 221.194.138.3
+ALL : 221.238.248.55
+ALL : 58.181.33.163  
+ALL : 59.151.34.31
+ALL : 66.249.65.98
+ALL : 68.236.214.178
+ALL : 68.60.238.129 
+ALL : 71.205.145.35 
+ALL : 76.230.26.10 
+ALL : 78.143.19.186
+ALL : 80.188.45.90  
+ALL : 80.227.150.70
+ALL : 81.183.215.188 
+ALL : 84.52.138.103 
+ALL : 85.105.124.205
+ALL : 92.236.53.54 
+ALL : 96.225.194.10
+ALL : 209.123.162.237

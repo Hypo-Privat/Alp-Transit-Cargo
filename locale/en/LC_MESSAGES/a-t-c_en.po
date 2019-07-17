@@ -1,0 +1,703 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 1: Globale beginnen mit glob_
+# 2;	Filename z.b. AGB
+# 3; Verwendung in Funktionen file_func_wert
+#  Aufruf z.b selectlist_get_country_land
+#
+msgid ""
+msgstr ""
+"Last-Translator: gd <gert.dorn@a-t-c.ch>\n"
+"PO-Revision-Date: 2017-06-14 07:03+0200\n"
+"X-Poedit-KeywordsList: login;trans\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-10 11:55+0200\n"
+"X-Poeödit-SourceCharset: iso-8859-15\n"
+"Language-Team: Engliah <gert.dorn@a-t-c.ch>\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Project-Id-Version: Alp-Transit-Cargo\n"
+"Plural-Forms: nplurals=0; null;\n"
+"Language: en_DE\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+# globale verwendet in
+# formate
+msgid "red_star"
+msgstr "<font color='red'>*</font>"
+
+msgid "glob_meldung"
+msgstr "<table width='700'><tr><td class='typ2' >"
+
+msgid "glob_meldung_end"
+msgstr "</td></tr></table>"
+
+msgid "glob_titel"
+msgstr "<table width='700'><tr><td class='titel' >"
+
+msgid "glob_titel_end"
+msgstr "</td></tr></table>"
+
+msgid "glob_line_gray"
+msgstr "<table width='700'><tr><td class='line_gray'>"
+
+msgid "glob_line_gray_end"
+msgstr "</td></tr></table>"
+
+msgid "glob_typ1"
+msgstr "<table width='700'><tr><td class='typ1'>"
+
+msgid "glob_typ1_end"
+msgstr "</td></tr></table>"
+
+msgid "glob_typ2"
+msgstr "<table width='700'><tr><td class='typ2' >"
+
+msgid "glob_typ2_end"
+msgstr "</td></tr></table>"
+
+msgid "glob_tour"
+msgstr "<table width='700'><tr><td class='tour' >"
+
+msgid "glob_tour_end"
+msgstr "</td></tr></table>"
+
+msgid "glob_contact"
+msgstr "<table width='700'><tr><td class='contact' >"
+
+msgid "glob_contact_end"
+msgstr "</td></tr></table>"
+
+# allgemeine variabelen
+msgid "ABBRECHEN"
+msgstr "<input type='submit' name='senden' value='submit' onclick='return validate(this.form,var_1)'>"
+
+msgid "formular"
+msgstr "<input type='submit' name='senden' value='submit' onclick='return validate(this.form,var_1)'>"
+
+msgid "senden"
+msgstr "<input type='submit' name='senden' value='submit'>"
+
+msgid "cancel"
+msgstr "<input type='reset' id='button' value='cancel'>"
+
+msgid "glob_close_window"
+msgstr "<br><A HREF='javascript:window.close()'>Close window</A>"
+
+# files user_data.inc, login.php,
+msgid "glob_hallo"
+msgstr " Hallo"
+
+msgid "glob_email"
+msgstr "Email"
+
+msgid "glob_senden"
+msgstr "Submit"
+
+msgid "glob_aendern"
+msgstr " Modify"
+
+msgid "glob_loeschen"
+msgstr " Delete"
+
+msgid "glob_login"
+msgstr "Login"
+
+msgid "glob_logout"
+msgstr "Logout</a>"
+
+msgid "glob_sign"
+msgstr "<br><br>Your Alp-Transit-Cargo Team wishes you every success!"
+
+msgid "glob_eingelogged_head"
+msgstr "Welcome to Alp-Transit-Cargo!"
+
+msgid "glob_eingelogged_text"
+msgstr "As a registered user, you can now record the vehicle and driver you wish to offer for the additional load. You can also handle your applications and customs declarations for countries cost-effectively via us online.<br>If countries insist on the obligatory recording of transit journeys, you can apply for these transit rights here online."
+
+msgid "glob_eingelogged_help"
+msgstr "<br>What to do after registration<br>1: Adapt your profile.<br>2: Record one or more drivers from your company.<br>3: Record your vehicles<br>4: Enter a route on which you are looking for a load or additional load.<br>Steps 1 and 4 are only necessary for entering cargo for dispatch."
+
+msgid "glob_nicht_eingelogged"
+msgstr "<table width='700' ><tr><td class='titel'   > Function only available for registered users.<br>Please login first with your email and password!</td></tr></table>"
+
+msgid "glob_form_error"
+msgstr "Database error during querying. Please send us the error message<br>gert.dorn@a-t-c.ch<br>"
+
+msgid "glob_login_error"
+msgstr "Login error"
+
+msgid "glob_login_error_text"
+msgstr "Username and/or password are not correct."
+
+msgid "glob_passwort"
+msgstr "Password"
+
+msgid "glob_passwort_lost"
+msgstr "<a href='menue_call.php?go=tcontacts_data.inc&func=user_login_check&dir=includes'> forget password ?</a>"
+
+msgid "glob_datum"
+msgstr "Date"
+
+msgid "glob_woche"
+msgstr "Week"
+
+msgid "glob_tag"
+msgstr "Day"
+
+msgid "glob_stunde"
+msgstr "Hour"
+
+msgid "glob_tag_mo"
+msgstr "Monday"
+
+msgid "glob_tag_di"
+msgstr "Tuesday"
+
+msgid "glob_tag_mi"
+msgstr "Wednesday"
+
+msgid "glob_tag_do"
+msgstr "Thursday"
+
+msgid "glob_tag_fr"
+msgstr "Friday"
+
+msgid "glob_tag_sa"
+msgstr "Saturday"
+
+msgid "glob_tag_so"
+msgstr "Sunday"
+
+msgid "glob_land"
+msgstr "Country"
+
+msgid "glob_route"
+msgstr "Route"
+
+msgid "glob_richtung"
+msgstr "Direction"
+
+msgid "glob_preis"
+msgstr "Price"
+
+msgid "glob_registrieren_head"
+msgstr "Register now!<br>"
+
+msgid "glob_registrieren_hinweis"
+msgstr "If you wish to indicate tenders for vehicles, cargos, removals,<br>apply for transit rights or respond to tenders, you should work with <font color='red'>current data</font> in your profile. Otherwise business partners cannot contact you or they will receive incorrect information. The \"YOUR COMPANY\" area allows you to view and adapt your current profile after the <font color='red'>REGISTRATION and LOGIN</font>. <br>We wish you every success with our service and are keen to receive constructive criticism so that we can improve our offer.          <b>Your Alp-Transit-Cargo Team</b>"
+
+msgid "glob_registrieren_link"
+msgstr "<a href='menue_call.php?go=tcontacts_data.inc&func=user_reg&dir=includes'>Register now?</a>"
+
+msgid "glob_registrieren_text"
+msgstr "If you still do not have access, please register here!"
+
+# ende globale
+msgid "sendmail_register_text"
+msgstr "Welcome to Alp-Transit-Cargo!<br>This is your registration confirmation for Alp-Transit-Cargo.<br>"
+
+msgid "sendmail_register_text1"
+msgstr "Save this information or print a copy, so that you can refer to it later.</h4>Thank you for registering for an account at Alp-Transit-Cargo. Use the email address and password you indicated when registering to log in to every site or for each service on which the network logo is displayed. <br>This email contains important information concerning the use of your account as well as information about what to do if you have forgotten your password.<h4>SO LOG IN</h4>Click on the relevant login button for each partner site at Alp-Transit-Cargo and enter you email address and password in the login box. <br>You can log in with just one click by saving your email address and password when logging in on the computer.<h4>HOW TO LOG OUT</h4>Click on the relevant logout button for each partner site at Alp-Transit-Cargo to log out of Alp-Transit-Cargo sites. The Account Administration contains further useful information and allows you to display and modify your profile.<h4>IF YOU HAVE FORGOTTEN YOUR PASSWORD</h4>you can reset your password in the Account Administration. We strongly recommend choosing a question, a secret answer and an alternative email address via which Alp-Transit-Cargo can send you a message for resetting the password. To create this password protection, call up the Account Administration page containing the login information. Go to Reset your Password for Account Administration, click on 'Forgotten password?', and follow the instructions shown.<br>Alp-Transit-Cargo endeavours to protect your private sphere. For this, please read the Alp-Transit-Cargo data protection provisions under<h4>http://www.Alp-Transit-Cargo.ch</h4> <br>Thank you for using Alp-Transit-Cargo!<br>Your Alp-Transit-Cargo customer support<h4>NOTE:</h4>Please do not reply to this message as it has been sent from an automated email address. Emails that are sent to this address will not be replied to."
+
+msgid "sendmail_passwort_send"
+msgstr "If you have forgotten your password or username, please enter your email address!"
+
+msgid "sendmail_passwort_betreff"
+msgstr "You have requested your password for Alp-Transit-Cargo!"
+
+msgid "sendmail_passwort_text"
+msgstr "Dear Alp-Transit-Cargo user.<br> Your password for login at Alp-Transit-Cargo.ch is:"
+
+msgid "sendmail_passwort_error"
+msgstr "Password email could not be sent! Have you specified the right email address?"
+
+# dyn/trans_reser.php
+msgid "trans_reser.php_titel"
+msgstr "Transit reservation"
+
+msgid "trans_reser.php_text1"
+msgstr "Although reservation by the countries is not yet obligatory, we kindly request that you make a reservation for quality assurance and statistical evaluations.<br> Reservation of a transit right is FREE!"
+
+msgid "trans_reser.php_text2"
+msgstr "Please select date and which route you wish to use for your transit."
+
+msgid "trans_reser.php_wahl_trade"
+msgstr "Day / Hour"
+
+msgid "trans_reser.php_sel_trade"
+msgstr "<OPTION value = 'T'>Day</option><OPTION value = 'S'>Hour</option>"
+
+# ende trans_reser.php
+# includes/trans_slotlist.inc
+# get_route
+msgid "trans_slotlist.inc_get_route_anzeigetxt1"
+msgstr "Free slots for the route"
+
+msgid "trans_slotlist.inc_get_route_anzeigetxt2"
+msgstr " in direction"
+
+msgid "trans_slotlist.inc_get_route_anzeigetxt3"
+msgstr " are currently displayed. The selection is made by clicking on the number in the green area."
+
+# ende trans_slotlist.inc
+# includes/kfz*.inc
+msgid "kfz_registrieren_head"
+msgstr "Records vehicles in your fleet!"
+
+msgid "kfz_registrieren_text"
+msgstr "Here you can record all vehicles owned by your company which you wish to offer for additional loads on various routes."
+
+msgid "kfz_upd_head"
+msgstr "Edit vehicles in company!"
+
+msgid "kfz_upd_text"
+msgstr "Here you can modify or delete the data for all vehicles of your company."
+
+msgid "kfz_tbins_ok"
+msgstr " License plate data has been saved."
+
+msgid "kfz_tbupd_ok"
+msgstr " The data has been modified for the license plate."
+
+msgid "kfz_tbdel_ok"
+msgstr " has been deleted for the license plate."
+
+msgid "FZ_KENNZ"
+msgstr "License plate<font color='red'>*</font>"
+
+msgid "FZ_LAND"
+msgstr "Licensed in country"
+
+msgid "FZ_SCHADSTOFF"
+msgstr "Harmful substance class<br>The code number for the emission characteristics of a passenger car can be found in the vehicle documents and vehicle registration license for 1. — Vehicle and design type— at the 5. and 6. point.<font color='red'>*</font>"
+
+msgid "FZ_MARKE"
+msgstr "Manufacturer"
+
+msgid "FZ_TYPE"
+msgstr "Vehicle type"
+
+msgid "FZ_ERSTZULASSUNG"
+msgstr "Initial registration<font color='red'>*</font>"
+
+msgid "FZ_ART"
+msgstr "Vehicle type"
+
+msgid "FZ_NOTIZ"
+msgstr "Additional information"
+
+# ende kfz*
+# Tcontacts
+msgid "cont_profil_head"
+msgstr "Please adapt your profile!"
+
+msgid "cont_profil_text"
+msgstr "If you wish to indicate tenders for vehicles, cargos, removals,<br>apply for transit rights or respond to tenders, you should work with <font color='red'>current data</font> in your profile. Otherwise business partners cannot contact you or they will receive incorrect information."
+
+msgid "cont_upd_error"
+msgstr "The email address is already registered, please either choose another email address or request password."
+
+msgid "cont_upd_ok"
+msgstr "Your profile has been modified."
+
+msgid "cont_pwd_change_head"
+msgstr "Do you wish to change your password?"
+
+msgid "cont_pwd_change_text"
+msgstr "Please enter your new password and confirm it!"
+
+msgid "COMPANYNAME"
+msgstr "Company"
+
+msgid "PREFIX"
+msgstr "Form of address"
+
+msgid "FIRSTNAME"
+msgstr "First name<font color='red'>*</font>"
+
+msgid "LASTNAME"
+msgstr "Last name<font color='red'>*</font>"
+
+msgid "SUFFIX"
+msgstr "Title"
+
+msgid "BIRTHDATE"
+msgstr "Date of birth"
+
+msgid "COUNTRY"
+msgstr "Country"
+
+msgid "STATEPROVINCE"
+msgstr "Federal state"
+
+msgid "POSTALCODE"
+msgstr "Post code<font color='red'>*</font>"
+
+msgid "CITY"
+msgstr "City/Town<font color='red'>*</font>"
+
+msgid "ADDRESS"
+msgstr "Street<font color='red'>*</font>"
+
+msgid "ADDRESSNUMBER"
+msgstr "House number<font color='red'>*</font>"
+
+msgid "OFFICEPHONE"
+msgstr "Phone<font color='red'>*</font>"
+
+msgid "FAXPHONE"
+msgstr "Fax"
+
+msgid "CELLULARPHONE"
+msgstr "Mobile"
+
+msgid "PAGERPHONE"
+msgstr "Pager"
+
+msgid "HOMEPHONE"
+msgstr "Phone<font color='red'>*</font>"
+
+msgid "URL"
+msgstr "Your homepage (www.homepage.de)"
+
+msgid "LANG"
+msgstr "Required language"
+
+msgid "NOTE"
+msgstr "Further information"
+
+msgid "EMAILADDRESS"
+msgstr "Email<font color='red'>*</font>"
+
+msgid "PWD"
+msgstr "Password<font color='red'>*</font>"
+
+msgid "AGB"
+msgstr " <a href='menue_call.php?go=agb_&dir=stat'>I have read and accept the General Terms and Conditions of Business.<font color='red'>*</font>"
+
+# ende Tcontacts*
+# TPARTNER
+msgid "partner_new_head"
+msgstr "Please record the drivers and subcontractors!"
+
+msgid "partner_new_hinweis"
+msgstr "If you wish to offer your vehicle for the load/additional load, you can also record the driver along with it. If the customer then wishes to keep in direct contact with his load, they can communicate with the driver directly."
+
+msgid "partner_new_ok"
+msgstr "The driver has been recorded."
+
+msgid "partner_upd_head"
+msgstr "Edit driver and subcontractor of your company!"
+
+msgid "partner_upd_text"
+msgstr "You can modify or delete the data for all drivers and subcontractors of your company here."
+
+msgid "partner_tbupd_ok"
+msgstr " The data has been modified."
+
+msgid "partner_tbdel_ok"
+msgstr " Data has been deleted."
+
+msgid "partner_"
+msgstr "Do you wish to change your password?"
+
+msgid "DRV_LIZENZ"
+msgstr "Driving license number"
+
+msgid "DRV_BEHOERDE"
+msgstr "Issuing authority"
+
+msgid "DRV_DATE"
+msgstr "Date of issue"
+
+# ende TPARTNER
+# tour glob alle
+msgid "INDEXKEY"
+msgstr "Customer number"
+
+msgid "KFZ_INDEXKEY"
+msgstr "Vehicle"
+
+msgid "PART_INDEXKEY"
+msgstr "Driver"
+
+msgid "TOUR_INDEXKEY"
+msgstr "Vehicle"
+
+msgid "LADUNG_INDEXKEY"
+msgstr "Load"
+
+msgid "AB_DAT"
+msgstr "Start"
+
+msgid "AB_LAND"
+msgstr "Country_from"
+
+msgid "AB_PLZ"
+msgstr "Post code_from"
+
+msgid "AB_ORT"
+msgstr "Place_from"
+
+msgid "AN_DAT"
+msgstr "Arrival"
+
+msgid "AN_LAND"
+msgstr "Country_to"
+
+msgid "AN_PLZ"
+msgstr "Post code_to"
+
+msgid "AN_ORT"
+msgstr "Place_to"
+
+msgid "GEWICHT"
+msgstr "Weight (t, kg)"
+
+msgid "VOLUMEN"
+msgstr "Dimensions (Length * Width * Height * Depth, cbm etc.)"
+
+msgid "CONTACTDATE"
+msgstr "Storage date"
+
+msgid "ANZAHL"
+msgstr "Amount of objects"
+
+msgid "PACKART"
+msgstr "Object (pallets, containers, canisters, etc.)"
+
+msgid "KFZ_ART"
+msgstr "Vehicle request"
+
+# exte
+msgid "tourlad_new_head"
+msgstr "Record load and additional load for the dispatch!"
+
+msgid "tourlad_new_text"
+msgstr "Here you can offer a load or additional load for dispatch. The forwarding agents can then submit an offer to you. You can find this under Offers at \"YOUR COMPANY\"."
+
+msgid "tourkfz_new_head"
+msgstr "Record route for empty vehicle of your fleet!"
+
+msgid "tourkfz_new_text"
+msgstr "Here you can record routes of your company which you wish to offer for additional loads."
+
+msgid "tour_upd_head"
+msgstr "Edit recorded routes of your company!"
+
+msgid "tour_upd_text"
+msgstr "Here you can modify or delete all data of your route offer."
+
+msgid "tour_tbins_ok"
+msgstr " Route data has been saved."
+
+msgid "tour_tbupd_ok"
+msgstr "Data has been modified for the route."
+
+msgid "tour_tbdel_ok"
+msgstr " deleted for the route."
+
+# ende Ttourlad
+# uchmasken
+msgid "suche_kfz_head"
+msgstr "All vehicles which can take a load or additional load!"
+
+msgid "suche_kfz_text"
+msgstr "Free (weight, volume, info) are displayed in line 2"
+
+msgid "suche_lad_head"
+msgstr "All loads which are ready for dispatch!"
+
+msgid "suche_lad_text"
+msgstr "Free (weight, volume, amount, object, required vehicle, info) are displayed in line 2"
+
+msgid "link_contact"
+msgstr "Contact"
+
+msgid "contact_head"
+msgstr "Bidder information!"
+
+msgid "contact_text"
+msgstr "This is the data of the bidder for the load/vehicle offer you have selected.<br><font color='red'>We do not accept any liability in regard to the correctness of the information provided.</font><br> In a next release we shall appropriately check the companies and bidders using our service."
+
+msgid "contact_anfrage"
+msgstr "Prospective customer for your offer on Alp-Transit-Cargo NR."
+
+msgid "contact_mail"
+msgstr "Send email to bidder?"
+
+# trans_buy
+msgid "transbuy_head"
+msgstr "Apply for transit reservation!"
+
+msgid "transbuy_text"
+msgstr "By filling out and submitting this form you apply for the right to drive through a transit country with a lorry. Please enter either an already \"recorded route\" or \"vehicle\" for this. If you have not recorded a vehicle or route, you need to do this beforehand under YOUR COMPANY. You also have to indicate your customs number or the number for the service-relevant heavy traffic submission (CH = LSVA) of the relevant country you wish to travel through."
+
+msgid "transbuy_rück"
+msgstr "<br>A withdrawal of the reservation is possible on working days 48h before validity of the reservation. A 10% processing fee will be charged!"
+
+msgid "rechnungsanschrift"
+msgstr "Is this your contact data? If not, please adapt your profile.<br>"
+
+msgid "transbuy_wahl1"
+msgstr "<br><br>You wish to apply for a transit right for the"
+
+msgid "transbuy_wahl2"
+msgstr " at"
+
+msgid "transbuy_wahl3"
+msgstr " on the"
+
+msgid "transbuy_wahl4"
+msgstr " route. <br>"
+
+msgid "transbuy_wahl5"
+msgstr "<br>For which route or which vehicle is the reservation?<br>"
+
+msgid "transbuy_LSVA_text"
+msgstr "Customs number or LSVA(CH)"
+
+msgid "transbuy_LSVA"
+msgstr "<input name = 'LSVA' type= 'text' size = '10' maxlength = '10'  style='height: 20px' value = '' >"
+
+msgid "sendmail_olduser_text"
+msgstr "Help us with the quality assurance of our new Internet platform.<br><br><font color='red'>Test www.Alp-Transit-Cargo.ch with login:  demo@Alp-Transit-Cargo.ch - Password: demo1234</font> <br><br> Alp-Transit-Cargo Alp-Transit-Cargo is a free online portal which you can use to <b>search for and offer freight or vehicles </b>. Reserve required <b>rights of way for transit countries, declare</b> your <b>freight at customs</b> or handle other applications to the authorities directly via us.<br><br>Alp-Transit-Cargo also advocates the idea of transporting loads (cargos, parcel goods) on existing empty vehicles (free freight capacity) through coordination (optimization), so as to mitigate environmental impact and reduce the costs for individuals. We shall soon be able to offer you alternative proposals for transporting freight or vehicles by rail as well.<br> <br>We are looking forward to making your daily tasks easier for you, developing alternative traffic routes and helping environmental impact together with you."
+
+msgid "welcome_text"
+msgstr "Help us with the quality assurance of our new Internet platform.<br><br><font color='red'>Test www.Alp-Transit-Cargo.ch with login:  demo@Alp-Transit-Cargo.ch - Password: demo1234</font> <br><br> Alp-Transit-Cargo Alp-Transit-Cargo is a free online portal which you can use to <b>search for and offer freight or vehicles </b>. Reserve required <b>rights of way for transit countries, declare</b> your <b>freight at customs</b> or handle other applications to the authorities directly via us.<br><br>Alp-Transit-Cargo also advocates the idea of transporting loads (cargos, parcel goods) on existing empty vehicles (free freight capacity) through coordination (optimization), so as to mitigate environmental impact and reduce the costs for individuals. We shall soon be able to offer you alternative proposals for transporting freight or vehicles by rail as well.<br> <br>We are looking forward to making your daily tasks easier for you, developing alternative traffic routes and helping environmental impact together with you."
+
+msgid "sendmail_olduser_betreff"
+msgstr "Use Alp-Transit-Cargo freight market for free!"
+
+# end old user
+# impressum
+msgid "impr_head"
+msgstr "Credits"
+
+msgid "impr_management"
+msgstr "Management"
+
+msgid "impr_management_pers"
+msgstr "Gert Dorn<br><a\thref='http://link2.map24.com/?lid=728fd028&amp;maptype=JAVA&amp;width0=1500&amp;q=Zürich Langstrasse 31&amp;country=CH&amp;logo_url=a-t-c.ch&amp;name=Frachtenbörse' target='map24'>Langstrasse 31</a><br>CH - 8004 Zürich<br><br>Mail : <a href='mailto:gert.dorn@a-t-c.ch?Subject=Management'>gert.dorn@a-t-c.ch</a> <br>Skype : A-T-C.ch"
+
+msgid "impr_marketing"
+msgstr "Marketing"
+
+msgid "impr_marketing_pers"
+msgstr "Silvia Heimann<br>Thanks for correction and design"
+
+msgid "spenden_head"
+msgstr "Donate to Alp-Transit-Cargo"
+
+msgid "spenden_text"
+msgstr "Alp-Transit-Cargo develops and operates a freight and transport market which is used to transport loads (cargos, parcel goods) on existing empty vehicles (free freight capacity) through coordination (optimization), so as to mitigate environmental impact and reduce the costs for individuals.<br><br>We also provide a trade platform for reserving transit rights through the Alpine transit countries, for recording statistical data concerning traffic movements in the region.<br><br>The hardware and software are part purchased and part leased and have been financed privately so far. We are no longer able to finance newly resultant costs for advertising and external support from our own funds. At present the existing hardware is adequate for us. Problems only really occur with the advertising and a more professional design via an agency.<br>Alp-Transit-Cargo would like to be financed solely by donations in future. Commercial advertising is rejected. <br><br>Whoever wishes to financially support the work of the project for Alp-Transit-Cargo independently of the current needs in general, can do this in several ways.<br><br>"
+
+msgid "spenden_konto"
+msgstr "<h4>Donate to: Gert Dorn - Use: Alp-Transit-Cargo  <br>Stadtsparkasse Nürnberg - IBAN: DE78 7605 0101 0004 415622 <br>Credit Suisse                            - IBAN: CH82 0483 5112 4849 6100 0 </h4>"
+
+# bis hier übersetzungen in EN, IT, FR, ES gemacht
+msgid "support_head"
+msgstr "Beispiele für die Benutzung von Alp-Transit-Cargo"
+
+msgid "support_text"
+msgstr "Beispiel Dokumente alle PDF machen: <br> <a href='/stat/demo_Transit.doc'>Transit Reservieren</a><br> <a href='/stat/demo_Registrieren.doc'>Neu Registrieren</a><br> <a href='/stat/demo_Tour_eingeben.doc'>Tour Fahrzeug/Ladung anbieten</a><br>"
+
+msgid "presse_head"
+msgstr "Pressemitteilungen und Veröffentlichungen"
+
+msgid "presse_text"
+msgstr "<a href='/presse/Alpentransitbörse-ist-online.doc'>Medienmitteilung</a><br><br><a href='/presse/Walliser-Boten-20080326.pdf'>Walliser Boten 20080326</a><br>"
+
+msgid "barcode_head"
+msgstr "Transit Reservierungs Beleg"
+
+msgid "barcode_text"
+msgstr "Bitte drucken sie sich ihren Reservierungsbeleg aus und geben Sie diesem dem Fahrer für den Grenzübertritt mit. Falls Sie sie den Barcode als SMS an ihren Fahrer senden möchten, bitte Telefonnummer und kurztext eingeben. <font color='red'> Dieser Service kostet 5 Sfr. (CH) andere Länder 5 Euro </font>"
+
+msgid "barcode_sms"
+msgstr "Mobile Nummer des Empfängers mit Länderkennung\tz.B. 004917299338822 <br><input name='mobile' type='text' size='25' maxlength='25' style='height: 20px' value=''> <br>\tKurznachrichten Text max. 80 Zeichen:<br><input name='mobiletext' type='text' size='80' maxlength='80'style='height: 20px' value=''> <br><br>\t<input type='submit' name='SMS' value='SMS'>"
+
+msgid "partner_no"
+msgstr "<OPTION>kein Fahrer</OPTION>"
+
+msgid "kfz_no"
+msgstr "<OPTION>kein Fahrzeug</OPTION>"
+
+msgid "AB_ZIMMER"
+msgstr "Zimmer jetzige Wohnung"
+
+msgid "AB_ETAGE"
+msgstr "von Etage"
+
+msgid "AB_AUFZ"
+msgstr "alt Aufzug"
+
+msgid "AN_ZIMMER"
+msgstr "Zimmer neue Wohnung"
+
+msgid "AN_ETAGE"
+msgstr "nach Etage"
+
+msgid "AN_AUFZ"
+msgstr "neu Aufzug"
+
+msgid "KART_GLAS"
+msgstr "Kartons für Glas (Menge)"
+
+msgid "KART_BUCH"
+msgstr "Kartons für Bücher (Menge)"
+
+msgid "KART_KLEID"
+msgstr "Kartons für Kleider (Menge)"
+
+msgid "suche_umz_head"
+msgstr "Alle Angebote für den Transport von Umzugsgut!"
+
+msgid "suche_umz_text"
+msgstr "Angezeigt werden in Zeile 2  - Zimmer jetzige Wohnung: - von Etage: - alt Aufzug: - Zimmer neue Wohnung: - nach Etage: - neu Aufzug: - Kartons für Glas (Menge): - Kartons für Bücher (Menge): - Kartons für Kleider (Menge): - Weitere Infos:"
+
+msgid "umz_registrieren_head"
+msgstr "Umzug zur Abwicklung anbieten!"
+
+msgid "umz_registrieren_text"
+msgstr "Hier können Sie Ihren Umzug erfassen. Interessenten können dann mit Ihnen Kontakt aufnehmen und Ihnen ein Angebot unterbreiten."
+
+msgid "umz_upd_head"
+msgstr "Erfasste Umzugdaten bearbeiten!"
+
+msgid "umz_upd_text"
+msgstr "Hier können Sie alle Daten Ihres Umzugwunsches ändern oder löschen."
+
+msgid "umz_tbins_ok"
+msgstr " Umzug-Daten wurden gespeichert."
+
+msgid "umz_tbupd_ok"
+msgstr "Für den Umzug wurden die Daten angepasst."
+
+msgid "umz_tbdel_ok"
+msgstr " Umzug wurden gelöscht."
+
+msgid "umzug"
+msgstr "Removal"
+
+msgid "fracht"
+msgstr "Freight"
+
+msgid "fahrzeug"
+msgstr "Vehicles"
+
+msgid "suchen"
+msgstr "search"
+
+msgid "angebot"
+msgstr "offer"
+
+msgid "bahn-tip"
+msgstr "If you look for an offer for the misalignment on the rail, use the main menue under RAILWAY"
+
+# quick angebot
+msgid "quick_ok_text"
+msgstr " You receive a E-Mail with your password for the LOGIN! Your offer was stored!"

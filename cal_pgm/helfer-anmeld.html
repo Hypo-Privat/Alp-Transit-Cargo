@@ -1,0 +1,92 @@
+<FORM enctype="multipart/form-data"
+	action='cal_menue.php?go=tclacontacts&dir=cal_script&func=hands_new'
+	accept-charset="ISO-8859-1" method='post'>
+<TABLE border="0" width="700">
+	<TBODY>
+		<TR>
+			<TD colSpan=2 class="col0">Anmeldung Helferinnen &amp; Helfer</TD>
+		</TR>
+
+		<tr>
+			<td class="col1" width="200"><span
+				style="display: block; padding-top: 7px;">Mitmachen am</span></td>
+			<td class="checkbox"><input type="checkbox" name="do" id="do" />
+			<label for="do">27.08.2009 Aufbau Donnerstag </label><br>
+
+			<input type="checkbox" name="fr" id="fr" /> <label for="fr">28.08.2009
+			Freitag</label> <br>
+			<input type="checkbox" name="sa" id="sa" /> <label for="sa">29.08.2009
+			Samstag </label> <br>
+			<input type="checkbox" name="so" id="So" /> <label for="So">30.08.2009
+			Sonntag </label><br>
+
+			<input type="checkbox" name="mo" id="do" /> <label for="mo">31.08.2009
+			Abbau Montag </label></td>
+		</tr>
+		<tr>
+
+			<td class="col1" width="200"><span
+				style="display: block; padding-top: 7px;">Bereich</span></td>
+			<td class="checkbox"><input type="checkbox" name="catering"
+				id="id_catering" /> <label for="id_catering">Catering</label> <br>
+			<input type="checkbox" name="info_stand" id="id_info_stand" /> <label
+				for="id_info_stand">Infostand</label><br>
+			<input type="checkbox" name="bandbetreuung" id="id_bandbetreuung" />
+			<label for="id_bandbetreuung">Orchesterbetreuung</label><br>
+			<input type="checkbox" name="allrounder" id="id_allrounder" /> <label
+				for="id_allrounder">AllrounderIn</label><br>
+			<input type="checkbox" name="security" id="id_security" /> <label
+				for="id_security">Security</label></td>
+		</tr>
+		<tr>
+			<td class="col1">Email</td>
+			<td><input id="id_EMAILADDRESS" type="text" name="EMAILADDRESS"
+				maxlength="64" /></td>
+		</tr>
+
+		<tr>
+			<td class="col1">Vorname</td>
+			<td><input id="id_FIRSTNAME" type="text" name="FIRSTNAME"
+				maxlength="64" /></td>
+		</tr>
+		<tr>
+			<td class="col1">Name</td>
+			<td><input id="id_LASTNAME" type="text" name="LASTNAME"
+				maxlength="64" /></td>
+		</tr>
+
+		<tr>
+			<td class="col1">Telefon</td>
+			<td><input id="id_OFFICEPHONE" type="text" name="OFFICEPHONE"
+				maxlength="64" /> (optional)</td>
+		</tr>
+		<tr>
+			<td class="col1">T-Shirt Gr&ouml;sse</td>
+			<td><select name="SHIRT" value="L">
+				<OPTION value="kid">kid</option>
+				<OPTION value="S">S</option>
+				<OPTION value="M">M</option>
+				<OPTION value="L">L</option>
+				<OPTION value="XL">XL</option>
+				<OPTION value="XXL">XXL</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td class="col1">Bemerkungen</td>
+			<td><textarea id="id_NOTE" rows="5" cols="50" name="NOTE"></textarea></td>
+
+		</tr>
+		<!--  <tr>
+			<td class="col1">Bild f&uuml;r Konzert-Ausweis hochladen. (max 1 MB)</td>
+			<td><input type="file" name="toProcess"></td>
+
+		</tr>-->
+
+		<tr>
+			<td>&nbsp;</td>
+			<td><input type="hidden" name="EIGENSCHAFT" value="Helfer" /> <input
+				type="submit" name="senden" value="Abschicken" /></td>
+		</tr>
+	</TBODY>
+</TABLE>
+</form>

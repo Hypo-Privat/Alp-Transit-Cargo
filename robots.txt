@@ -1,0 +1,12 @@
+# robots.txt zu http://www.a-t-c.ch/
+
+User-agent: UniversalRobot/1.0
+User-agent: atc
+
+
+# Alle Robots ausschlieﬂen
+User-agent: *
+Disallow: /includes/
+Disallow: /dyn/
+Disallow: /menue/
+Disallow: /images/

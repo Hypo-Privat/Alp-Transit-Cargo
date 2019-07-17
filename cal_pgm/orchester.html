@@ -1,0 +1,48 @@
+
+<TABLE border="0" width="600">
+	<TBODY>
+
+		<TR>
+			<TD class="col0">Liebe Musikerinnen, Musiker, liebe Orchester</td>
+		</TR>
+		<TR>
+			<TD class=col1>Die <A class="kursiv"
+				href="cal_menue.php?go=stage&dir=cal_pgm">B&uuml;hne</a> ist 100qm gross
+			und wird entsprechend der Anforderungen mit St&uuml;hlen und Notenst&auml;ndern
+			ausgestattet. <br>
+
+			<br>
+			Wenn Sie interessiert sind, an unserem <b>Open-Air 2010</b> zu
+			spielen, senden Sie uns eine Mail mit folgenden Angaben: <br>
+			<br>
+			1. Wie heisst Ihre Formation (evt. Webseite)?<br>
+			2. Welches Repertoire wollen Sie spielen (f&uuml;llen Sie mind. eine
+			Stunde Programm?)<br>
+			3. Aus wievielen Musikern besteht Ihr Orchester?<br>
+			4. Haben Sie spezielle Anforderungen an die B&uuml;hne, Ausstattung, etc.?<br>
+			5. Wie hoch ist Ihr Honorar?<br>
+			6. Entstehen zus&auml;tzliche Kosten f&uuml;r Anreise, evt. &uuml;bernachtung, ect.?<br>
+			7. Was liegt Ihnen sonst noch am Herzen ?<br>
+			<br>
+			Bitte schicken Sie uns Infomaterial oder CD an<br>
+			Gert Dorn, Langstrasse 31 , 8004 Z&uuml;rich. <br>
+			<br>
+			Mail : <a class="kursiv"
+				href='mailto:office@classicaulac.ch?Subject=musiker :'>Und jetzt anmelden
+			! </a> <br>
+
+			</td>
+		</TR>
+		<TR align="center">
+			<td class="col1"><?php
+// print_r($_SESSION);
+if ($_SESSION['angemeldet'] <> 1) {
+	require_once ('cal_script/login.php');
+}
+elseif ($_SESSION['angemeldet'] = 1) {
+	require_once ('cal_script/logout.php');
+}
+?></td>
+		</Tr>
+	</TBODY>
+</TABLE>

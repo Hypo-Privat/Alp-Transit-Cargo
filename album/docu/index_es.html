@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!doctype html public "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Documentation Gallery Script</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta name="robots" content="noindex">
+
+</head>
+
+<style type="text/css">
+<!--
+  h4 {
+      font-family:Tahoma,Helvetica,Geneva,Sans-serif,sans-serif;
+      margin-top:5px;
+      text-align:center;
+      }
+
+  h5 {
+      font-family:Tahoma,Helvetica,Geneva,Sans-serif,sans-serif;
+      margin-top:20px;
+      margin-bottom:5px;
+      text-align:center;
+      font-size:11pt;
+      }
+
+  p, td, br, form, ol, a {
+      font-family:Verdana,Helvetica,Geneva,Sans-serif,sans-serif;
+      font-size:10.5pt;
+      }
+
+  .chapter {
+      width:650px;
+      border-width:1px;
+      border-style:solid;
+      border-color:#000000;
+      margin-left:50px;
+      padding:10px;
+      margin-bottom:20px;
+      background-color:#E6F2CC;
+      line-height:14pt;
+      }
+
+  .code {
+      font-family:Courier New;
+      }
+
+  .links {
+      width:650px;
+      margin-left:50px;
+      padding:5px;
+      margin-bottom:10px;
+      }
+-->
+</style>
+
+<body>
+  <a name="top"></a>
+  <div class="chapter"><a name="ad"></a>
+<h4>Gallery Script presents: Online Appointment Booking</h4>
+<p> Our PHP script <a href="http://www.schedule-organizer.de/en/">Schedule Organizer</a> allows a customer, patient or client to schedule an appointment via the company's, doctor's or consultant's homepage. PHP script simplifies and automates appointment administration - the employees responsible save time as there are fewer telephone calls, faxes and letters to answer.
+</p>
+<p>  <a href="http://www.schedule-organizer.de/en/">Schedule Organizer Website</a>
+ 
+</p>
+<p align="right"><a href="#top"> Back To Top
+</a></p></div> 
+  <div class="chapter">
+    <h4>Documentation Gallery Script</h4>
+    <p>
+      Gracias por su interes en nuestro Gallery Script.
+    </p>
+  </div>
+
+  <div class="links">
+    <a href="#configuration">Configuracion</a>&nbsp;&nbsp;
+    <a href="#html">Personalizar&nbsp;la&nbsp;presentacion</a>&nbsp;&nbsp;
+    <a href="#images">Las&nbsp;Imagenes</a>&nbsp;&nbsp;
+    <a href="#upload">Subir&nbsp;los&nbsp;archivos</a>&nbsp;&nbsp;
+    <a href="#lizenzierung">Licencia</a>&nbsp;&nbsp;
+  </div>
+
+  <div class="chapter">
+    <a name="configuration"></a>
+    <h4>Configuracion</h4>
+      <p>Despues de desempaquetasr el sript debe ser capaz de ejecutarlo directamente.</p>
+
+      <p>Si quiere utilizar una carpeta de imagenes diferente a la que viene por defecto puede cambiar la ruta en la variable $image_url. Introduzca la ruta completa en el servidor (p.ej. /usr/local/etc/htdocs/www/images/picture_gallery/).</p>
+
+      <p>La variable $image_url es la direccion de las imagenes para llamarlas desde las paginas HTML. Puede utilizar la direccion relativa (valor por defecto) o la direccion web completa a la carpeta de las imagenes (p.ej.: si la direccion completa a la imagen es http://www.server.com/images/picture.gif, la ruta absoluta sera '/images/picture.gif').</p>
+
+      <p>La variable $order contiene el metodo de ordenacion. Estan disponibles 'ascendente' y 'descendente'. El orden se basa en los nombres de archivo. Finalmente necesita configurar el idioma. Estan disponibles Ingles, Aleman y Espanol. El idioma por defecto es el Espaool.</p>
+
+  </div>
+
+  <div class="chapter">
+    <a name="html"></a>
+    <h4>Personalizar la presentacion</h4>
+
+    <p>El directorio 'templates' contiene los archivos para la presentacion. Puede utilizar HTML y CSS para personalizar la presentacion.</p>
+
+    <p>Cada una de las plantillas 'index.html' y 'window.html' contiene el esquema de la pagina. Las plantillas 'table.html' y 'window_table.html' contiene el esquema de las filas de las tablas. El script toma cada celda y la transforma en una tabla completa.</p>
+
+    <p>En caso de utilizar un editor WYSIWYG como Dreamweaver, Frontpage o NetObjects, por favor, asegœrese de que el software no hace cambios por s' mismo.</p>
+
+    <p>Los archivos de plantilla contienen marcadores con { y } como: {txt_next_page}. Estos marcadores seran reemplazados automaticamentepor sus valores correspondientes desde el archivo de idioma 'languages/language.es.inc.php'. Usted es libre de editar ese archivo y cambiar las palabras y frases. Tambien puede reemplazar los marcadores dentro de las plantillas por palabras reales o poner esos marcadores en otras posiciones dentro de la plantilla. Y tambien puede mejorar el archivo de idioma utilizando el mismo patron.</p>
+
+    <p>Entre estos marcadores existen los llamados Loops. Similares a las etiquetas HTML tags las dos partes (<LOOP ...>...</LOOP>) no deben separarse. Si quiere alterar la posicion en la plantilla, debe mover todo el bloque.</p>
+
+
+    <p align="right"><a href="#top">Back To Top</a></p>
+  </div>
+
+
+  <div class="chapter">
+    <a name="images"></a>
+    <h4>Las Imagenes</h4>
+
+    <p>Las imagenes se ordenaran tal y como esta definido en la variable $order. Con el nombre de la imagen se puede influir en la posicion de esta. </p>
+
+    <p>Tambien existe la posibilidad de poner un archivo 'image_order.txt' en su directorio de imagenes. El archivo contiene los nombres de imagen en el orden que se quiera (uno debajo de otro).</p>
+
+    <p>La carpeta de imagenes de la version 'simple' *NO* contiene un 'image_order.txt'. Las otras dos versiones s' lo contienen.</p>
+
+    <p>Si esta trabajando con miniaturas y las correspondientes imagenes grandes, los nombres de las imagenes deben ser los mismos.</p>
+
+    <p>Por favor, asegœrese de que su directorio de imagenes contiene solo los archivos que quiere visualizar con el script. Si no quiere utilizar el 'image_order.txt' debe eliminarlo. Renombrando 'image_order.txt' no funcionara y causara errores.</p>
+
+    <p align="right"><a href="#top">Back To Top</a></p>
+  </div>
+
+
+
+
+  <div class="chapter">
+    <a name="upload"></a>
+    <h4>Subir los archivos de script</h4>
+
+    <p>Cree las siguientes carpetas en su servidor web:</p>
+
+    <p>/gallery/<br />
+       /gallery /inc/<br />
+       /gallery /templates/<br />
+       /gallery /images/
+    </p>
+
+    <p>Copie todos los ficheros en sus correspondientes carpetas.</p>
+
+    <p>Ahora el script debiera funcionar.</p>
+
+    <p>Por favor, tome nota: Usted puede ejecutar varias galer'as con las mismas plantillas de esquema. Copie los ficheros 'index.php' y 'window.php' dandoles un nuevo nombre. Ahora solo necesita cambiar la ruta al directorio de imagenes.</p>
+
+    <p>Puede utilizar este script libremente. Si quiere utilizar este script sin el link to Stadtaus.com, debe comprar el script online (US$15/15 Euro).</p>
+
+    <p>Por comprar una licencia de script usted tendra soporte tecnico por e-mail incluyendo todas las actualizaciones y nuevas versiones.</p>
+
+    <p align="right"><a href="#top">Back To Top</a></p>
+  </div>
+
+
+  <div class="chapter">
+    <a name="lizenzierung"></a>
+    <h4>Informacion de licencia</h4>
+
+    <ol start="1" type="1">
+      <li>Puede revender el script a terceros.</li>
+      <li>Puede poner su propio precio.</li>
+      <li>Una licencia de script es aplicable a un dominio œnico.</li>
+    </ol>
+
+
+    <p>Contactos: <a href="http://www.stadtaus.com/es/" target="_blank">http://www.stadtaus.com/es/</a> - <a href="http://www.stadtaus.com/forum/" target="_blank">Support Forum</a></p>
+
+    <p align="right"><a href="#top">Back To Top</a></p>
+  </div>
+
+
+
+</body>
+</html>
